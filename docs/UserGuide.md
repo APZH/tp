@@ -64,9 +64,13 @@ Please kindly follow the instructions below to install all necessary software:
 
   >💡 **Tip:** If you are unsure on how to install `Java 11` on your computer, click [here](https://www.youtube.com/watch?v=-p0NTsSHlxg) for a short video tutorial.
 
+<p>&nbsp;</p>
+
 - **Step 2:** After successfully installing `Java 11`, open up a **command prompt** on your computer.
 
   >💡 **Tip:** If you are unsure on how to open a **command prompt** on your computer, click [here](https://www.digitalcitizen.life/open-cmd/) for a quick guide.
+
+<p>&nbsp;</p>
 
 - **Step 3:** Type `java --version` into the **command prompt** and check that the version number is `11.0.12`, as shown in the example below.
   
@@ -76,6 +80,8 @@ Please kindly follow the instructions below to install all necessary software:
   </p>
 
 
+<p>&nbsp;</p>
+
 - **Step 4:** If the version number matches, you have succeeded in installing `Java 11` on your device.
 
 ## 1.2 Setting Up SchedUrMods
@@ -83,6 +89,7 @@ Please kindly follow the instructions below to install all necessary software:
 This section serves to provide a step-by-step guide to download and install the official **SchedUrMods** application.
 
 - **Step 1:** Download the latest version of SchedUrMods [here](https://github.com/AY2122S1-CS2113T-W13-3/tp/releases/latest).
+<p>&nbsp;</p>
 - **Step 2:** Create an empty folder called 'SchedUrMods', and copy the downloaded application into it.
 - **Step 3:** In the 'SchedUrMods' folder, type `cmd` on the File Explorer Bar to launch a **command prompt** as shown below.
 
