@@ -162,15 +162,16 @@ There are **3 types of tasks** you can add to your task list.
 ### 2.2.1 Todo: `todo`
 Adds a `todo` to your task list.
 
+<p>&nbsp;</p>
+
 **Command Format**: `todo <description> [--flag <argument>]`
 - `<description>` specifies the description of your `todo` task.
 - `[--flag <argument>]` specifies the following optional details of your `todo` task:
-  1. When your task is to be done: <code>[--doOn <a href="#224-date-format-dateformat">&lt;dateFormat&gt;</a>]</code>.
-  
-     >💡 **Note**: If the `--doOn` flag is unused, the task date will be set to the current time rounded up to the nearest hour.
-     
-  2. The priority of your task: `[--priority high|medium|low]`.
-  3. How often your task is to repeat: `[--recur daily|weekly|monthly|yearly]`.
+  - When your task is to be done: <code>[--doOn <a href="#224-date-format-dateformat">&lt;dateFormat&gt;</a>]</code>.
+  - The priority of your task: `[--priority high|medium|low]`.
+  - How often your task is to repeat: `[--recur daily|weekly|monthly|yearly]`.
+
+>💡 **Note**: If the `--doOn` flag is unused, the task date will be set to the current time rounded up to the nearest hour.
 
 <p>&nbsp;</p>
 
@@ -195,12 +196,14 @@ Adds a `todo` to your task list.
 ### 2.2.2 Deadline: `deadline`
 Adds a `deadline` to your task list.
 
+<p>&nbsp;</p>
+
 **Command Format**: `deadline <description> <--due dd/MM/yyyy HH:mm> [--flag <argument>]`
 - `<description>` specifies the description of your deadline.
 - <code>&lt;--due <a href="#224-date-format-dateformat">&lt;dateFormat&gt;</a>&gt;</code> specifies when your deadline is due.
 - `[--flag <argument>]` specifies optional details of your deadline.
-  1. The priority of your task: `[--priority <high|medium|low>]`.
-  2. How often your task is to repeat: `[--recur <none|daily|weekly|monthly|yearly>]`.
+  - The priority of your task: `[--priority <high|medium|low>]`.
+  - How often your task is to repeat: `[--recur <none|daily|weekly|monthly|yearly>]`.
 
 <p>&nbsp;</p>
 
@@ -230,8 +233,8 @@ Adds an `event` to your task list.
 - <code>&lt;--start <a href="#224-date-format-dateformat">&lt;dateFormat&gt;</a>&gt;</code> specifies when your event starts.
 - <code>&lt;--end <a href="#224-date-format-dateformat">&lt;dateFormat&gt;</a>&gt;</code> specifies when your event ends.
 - `[--flag <argument>]` specifies optional details of your event.
-  1. The priority of your task: `[--priority <high|medium|low>]`.
-  2. How often your task is to repeat: `[--recur <none|daily|weekly|monthly|yearly>]`.
+  - The priority of your task: `[--priority <high|medium|low>]`.
+  - How often your task is to repeat: `[--recur <none|daily|weekly|monthly|yearly>]`.
 
 <p>&nbsp;</p>
 
