@@ -57,8 +57,6 @@ This section serves to ensure you have installed all additional pieces of softwa
 
 Please kindly follow the instructions below to install all necessary software:
 
-<p>&nbsp;</p>
-
 - **Step 1:** Download and install `Java 11` on your computer.
   - If you are using Windows, click [here](https://corretto.aws/downloads/latest/amazon-corretto-11-x64-windows-jdk.msi) to download.
   - If you are using Macintosh, click [here](https://corretto.aws/downloads/latest/amazon-corretto-11-x64-macos-jdk.pkg) to download.
@@ -90,7 +88,7 @@ Please kindly follow the instructions below to install all necessary software:
 
 This section serves to provide a step-by-step guide to download and install the official **SchedUrMods** application.
 
-<p>&nbsp;</p>
+Please kindly follow the instructions below to install all necessary software:
 
 - **Step 1:** Download the latest version of SchedUrMods [here](https://github.com/AY2122S1-CS2113T-W13-3/tp/releases/latest).
 
@@ -120,6 +118,8 @@ This section serves to provide a step-by-step guide to download and install the 
 
 - **Step 5:** Congratulations, have successfully installed SchedUrMods! You may now enter 
 commands into SchedUrMods.
+
+<p>&nbsp;</p>
 
 Please refer to the [Features](#2-features) section of the User Guide for more details of the commands available.
 
