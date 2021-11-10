@@ -46,19 +46,35 @@ Please kindly follow the instructions below to install all necessary software:
   - If you are using Windows, click [here](https://corretto.aws/downloads/latest/amazon-corretto-11-x64-windows-jdk.msi) to download.
   - If you are using Macintosh, click [here](https://corretto.aws/downloads/latest/amazon-corretto-11-x64-macos-jdk.pkg) to download.
   - If you are using Linux, click [here](https://corretto.aws/downloads/latest/amazon-corretto-11-x64-linux-jdk.deb) to download.
-    > If you are unsure on how to install `Java 11` on your device, click [here](https://www.youtube.com/watch?v=-p0NTsSHlxg) for a short video tutorial.
 
-- **Step 2:** After successfully installing `Java 11`, open up a command prompt on your computer.
-- **Step 3:** Type `java --version` and check that the version number is `11.0.12`, as shown in the example below.
+  >💡 Tip: If you are unsure on how to install `Java 11` on your computer, click [here](https://www.youtube.com/watch?v=-p0NTsSHlxg) for a short video tutorial.
+
+- **Step 2:** After successfully installing `Java 11`, open up a **command prompt** on your computer.
+
+  >💡 Tip: If you are unsure on how to open a **command prompt** on your computer, click [here](https://www.digitalcitizen.life/open-cmd/) for a quick guide.
+
+- **Step 3:** Type `java --version` into the **command prompt** and check that the version number is `11.0.12`, as shown in the example below.
+  
   <p align="center">
       <img src="UG_images/check_java_version.png">
   </p>
 
+- **Step 4:** If the version number matches, you have succeeded in installing `Java 11` on your device.
+
 ## 1.2 Installation
+
+This section serves to provide a step-by-step guide to download and install the official **SchedUrMods** application.
 
 - **Step 1:** Download the latest version of SchedUrMods [here](https://github.com/AY2122S1-CS2113T-W13-3/tp/releases/latest).
 - **Step 2:** Create an empty folder called 'SchedUrMods', and copy the downloaded application into it.
-- **Step 3:**
+- **Step 3:** In the 'SchedUrMods' folder, type `cmd` on the File Explorer Bar to launch a **command prompt** as shown below.
+
+  <p align="center">
+      <img src="UG_images/cmd_in_home_folder.png">
+  </p>
+
+- **Step 4:** Type `java -jar SchedUrMods.jar` into the command prompt to start the SchedUrMods application.
+- **Step 5:** The following display should appear in a few seconds. 
 
 1. Ensure you have [Java **11** jdk](https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/downloads-list.html) installed in your Computer, 
 and that `java` is in your `PATH` environment variable.
@@ -70,22 +86,13 @@ and that `java` is in your `PATH` environment variable.
 5. Type `java -jar SchedUrMods.jar` into the terminal to start SchedUrMods.
 6. The following display should appear in a few seconds:
 
-```
- _____        _                _  _   _       ___  ___            _
-/  ___|      | |              | || | | |      |  \/  |           | |
-\ `--.   ___ | |__    ___   __| || | | | _ __ | .  . |  ___    __| | ___
-`--.  \ / __|| '_ \  / _ \ / _` || | | || '_| | |\/| | / _ \  / _` |/ __|
-/\__/ /| (__ | | | ||  __/| (_| || |_| || |   | |  | || (_) || (_| |\__ \
-\____/  \___||_| |_| \___| \__,_| \___/ |_|   \_|  |_/ \___/  \__,_||___/
--------------------------------------------------------------------------
-Command-Line Interface for NUSMODS                               (v2.1.0)
--------------------------------------------------------------------------
-[user]:
-```
+  <p align="center">
+      <img src="UG_images/welcome_display_cmd.png">
+  </p>
 
 7. You may now enter commands into SchedUrMods. Type a command beside
 `[user]:` (as shown above) and press `Enter` on your keyboard to execute the command.
-8. Refer to the [Features](#2-features) below for details of each command.
+8. Refer to the [Features](#2-features) below for more details of the commands available.
 
 ## 2. Features
 ### 2.1 Viewing help : `help`
