@@ -17,7 +17,7 @@ faster than a traditional GUI application.
 - Guide you through using SchedUrMods for your personal use.
 - Provide troubleshooting for issues you may face when using SchedUrMods.
 
-## Overview <a id="scrollToHere"></a>
+# Overview <a id="scrollToHere"></a>
 - [1. Getting Started](#1-getting-started)
   - [1.1 Device Requirements](#11-device-requirements)
   - [1.2 Setting Up SchedUrMods](#12-setting-up-schedurmods)
@@ -46,15 +46,12 @@ faster than a traditional GUI application.
 
 <div style="page-break-after: always;"></div>
 
----
 
-## 1. Getting Started
+# 1. Getting Started
 This section will bring you through a step-by-step guide on how to 
 install the SchedUrMods application on your computer.
 
----
-
-### 1.1 Device Requirements
+## 1.1 Device Requirements
 
 This section serves to ensure you have installed all additional pieces of software required to run the SchedUrMods application. 
 
@@ -81,7 +78,7 @@ Please kindly follow the instructions below to install all necessary software:
 
 - **Step 4:** If the version number matches, you have succeeded in installing `Java 11` on your device.
 
-### 1.2 Setting Up SchedUrMods
+## 1.2 Setting Up SchedUrMods
 
 This section serves to provide a step-by-step guide to download and install the official **SchedUrMods** application.
 
@@ -109,24 +106,23 @@ commands into SchedUrMods.
 
 Please refer to the [features](#2-features) below for more details of the commands available.
 
----
 
 <div style="page-break-after: always;"></div>
 
----
 
-## 2. Features
+
+# 2. Features
 This section teaches you all the commands you can use to manage your very 
 own virtual task list in the SchedUrMods application.
 
----
 
-### 2.1 Viewing help : `help`
+
+## 2.1 Viewing help : `help`
 Displays all available commands for the SchedUrMods application.
 
 **Format**: `help`
 
-### 2.2 Adding your tasks:
+## 2.2 Adding your tasks:
 
 > #### 📝 **Some notes when adding tasks**:
 > - All commands are case-insensitive. For example, `todo` is the same as `Todo` or `TODO`.
