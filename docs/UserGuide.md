@@ -148,7 +148,7 @@ own virtual task list in the SchedUrMods application.
 ## 2.1 Viewing help : `help`
 Displays all available commands for the SchedUrMods application.
 
-**Format**: `help`
+**Command Format**: `help`
 
 <p>&nbsp;</p>
 
@@ -168,11 +168,15 @@ Adds a `todo` to your task list.
   2. The priority of your task: `[--priority high|medium|low]`.
   3. How often your task is to repeat: `[--recur daily|weekly|monthly|yearly]`.
 
+<p>&nbsp;</p>
+
 **Example**: `todo read book --doOn 20-10-2021 02:00 --recur daily`
 - Adds a todo task with the description '`read book`' to your task list.
 - Specifies that the priority of the task is '`medium`' (default priority).
 - Specifies that the task is to be done on '`20-10-2021 02:00`'.
 - Specifies that the task is to repeat '`daily`'.
+
+<p>&nbsp;</p>
 
 **Expected Outcome**:
 
@@ -194,11 +198,15 @@ Adds a `deadline` to your task list.
   1. The priority of your task: `[--priority <high|medium|low>]`.
   2. How often your task is to repeat: `[--recur <none|daily|weekly|monthly|yearly>]`.
 
+<p>&nbsp;</p>
+
 **Example**: `deadline CS2106 Lab 3 --priority high --due 20-10-2021 02:00`
 - Adds a deadline task with the description '`CS2106 Lab 3`' to your task list.
 - Specifies that the priority of the task is '`high`'.
 - Specifies that the task is to be done on '`20-10-2021 02:00`'.
 - Specifies that the task will have no recurrence (default recurrence).
+
+<p>&nbsp;</p>
 
 **Expected Outcome**:
 
@@ -221,11 +229,15 @@ Adds an `event` to your task list.
   1. The priority of your task: `[--priority <high|medium|low>]`.
   2. How often your task is to repeat: `[--recur <none|daily|weekly|monthly|yearly>]`.
 
+<p>&nbsp;</p>
+
 **Example**: `event Marquee Christmas Party --priority high --start 25-12-2020 22:00 --end 26-12-2020 04:00`
 - Adds an event task with the description '`Marquee Christmas Party`' to your task list.
 - Specifies that the priority of the task is '`high`'.
 - Specifies that the task starts on '`25-12-2020 22:00`' and ends on '`26-12-2020 04:00`'.
 - Specifies that the task will have no recurrence (default recurrence).
+
+<p>&nbsp;</p>
 
 **Expected Outcome**:
 
