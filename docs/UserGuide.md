@@ -5,7 +5,7 @@ SchedUrMods can help you manage your daily tasks faster as compared to a traditi
 
 Below is the guide on how you can get started using our program to start **"Scheduling Ur Mods!"**.  
 
-## Overview <a id="scrollToHere"></a>
+# Overview <a id="scrollToHere"></a>
 - [1. Quick Start](#1-quick-start)
 - [2. Features](#2-features)
     - [2.1 Viewing help: `help`](#21-viewing-help--help)
@@ -14,7 +14,7 @@ Below is the guide on how you can get started using our program to start **"Sche
       - [2.2.2 Deadline: `deadline`](#222-deadline-deadline)
       - [2.2.3 Event: `event`](#223-event-event)
       - [2.2.4 Date Format: `<dateFormat>`](#224-date-format-dateformat)
-    - [2.3 Listing your tasks: `list`](#23-listing-your-tasks-list)
+    - [2.3 Listing your task list: `list`](#23-listing-your-tasks-list)
       - [2.3.1 Listing your entire task list](#231-listing-your-entire-task-list)
       - [2.3.2 Filtering your task list](#232-filtering-your-task-list)
       - [2.3.3 Listing the recurrence of a task](#233-listing-the-recurrence-of-a-task)
@@ -30,7 +30,30 @@ Below is the guide on how you can get started using our program to start **"Sche
 - [3. FAQ](#3-faq)
 - [4. Command Summary](#4-command-summary)
 
-## 1. Quick Start
+# 1. Setting up SchedUrMods on your device
+
+This section will bring you through a step-by-step guide on how to install the SchedUrMods application on your computer.
+
+---
+
+## 1.1 Device Requirements
+
+This section serves to ensure you have installed all additional pieces of software required to run the SchedUrMods application. 
+
+Please kindly follow the instructions below to install all necessary software:
+
+- **Step 1:** Download and install `Java 11` on your device.
+  - > If you are using Windows, click [here]() to download `Java 11`.
+  - > If you are using Macintosh, click [here]() to download `Java 11`.
+  - > If you are using Linux, click [here]() to download `Java 11`.
+- **Step 2:** 
+
+## 1.2 Installation
+
+- **Step 1:** Download the latest version of SchedUrMods [here](https://github.com/AY2122S1-CS2113T-W13-3/tp/releases/latest).
+- **Step 2:** Create an empty folder called 'SchedUrMods', and copy the downloaded application into it.
+- **Step 3:**
+
 1. Ensure you have [Java **11** jdk](https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/downloads-list.html) installed in your Computer, 
 and that `java` is in your `PATH` environment variable.
 2. Download the latest jar file from [here](https://github.com/AY2122S1-CS2113T-W13-3/tp/releases/latest).
