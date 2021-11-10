@@ -90,7 +90,12 @@ This section serves to provide a step-by-step guide to download and install the 
 
 Please kindly follow the instructions below to install all necessary software:
 
-- **Step 1:** Download the latest version of SchedUrMods [here](https://github.com/AY2122S1-CS2113T-W13-3/tp/releases/latest).
+- **Step 1:** Download the latest version of SchedUrMods [here](https://github.com/AY2122S1-CS2113T-W13-3/tp/releases/latest) and click 
+on `SchedUrMods.jar` as shown in the image below.
+
+  <p align="center">
+      <img src="UG_images/github_download.png">
+  </p>
 
 <p>&nbsp;</p>
 
