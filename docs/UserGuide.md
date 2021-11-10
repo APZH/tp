@@ -330,7 +330,7 @@ Displays the next four recurrences of a task in your task list.
 - `[id]` specifies the id of the task to display the next four recurrences of.
   >💡 **Note**: To obtain the correct task id of each task, please use the `list` command without any filters.
 
-**Example (with task id)**: `list 3`
+**Example**: `list 3`
 - Lists the next four recurrences of the task with the index `3`.
 - The task at index `3` has a recurrence of `monthly`, so the command will print the next four months of the event.
 
