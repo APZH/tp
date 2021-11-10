@@ -159,8 +159,6 @@ Displays all available commands for the SchedUrMods application.
 ## 2.2 Adding your tasks:
 There are **3 types of tasks** you can add to your task list.
 
-<p>&nbsp;</p>
-
 ### 2.2.1 Todo: `todo`
 Adds a `todo` to your task list.
 
@@ -173,11 +171,15 @@ Adds a `todo` to your task list.
 
 >💡 **Note**: If the `--doOn` flag is unused, the task date will be set to the current time rounded up to the nearest hour.
 
+<p>&nbsp;</p>
+
 **Example**: `todo read book --doOn 20-10-2021 02:00 --recur daily`
 - Adds a todo task with the description '`read book`' to your task list.
 - Specifies that the priority of the task is '`medium`' (default priority).
 - Specifies that the task is to be done on '`20-10-2021 02:00`'.
 - Specifies that the task is to repeat '`daily`'.
+
+<p>&nbsp;</p>
 
 **Expected Outcome**:
 
@@ -200,12 +202,16 @@ Adds a `deadline` to your task list.
 - `[--flag <argument>]` - specifies optional details of your deadline.
   - The priority of your task: `[--priority <high|medium|low>]`.
   - How often your task is to repeat: `[--recur <none|daily|weekly|monthly|yearly>]`.
-  
+
+<p>&nbsp;</p>
+
 **Example**: `deadline CS2106 Lab 3 --priority high --due 20-10-2021 02:00`
 - Adds a deadline task with the description '`CS2106 Lab 3`' to your task list.
 - Specifies that the priority of the task is '`high`'.
 - Specifies that the task is to be done on '`20-10-2021 02:00`'.
 - Specifies that the task will have no recurrence (default recurrence).
+
+<p>&nbsp;</p>
 
 **Expected Outcome**:
 
@@ -229,13 +235,16 @@ Adds an `event` to your task list.
 - `[--flag <argument>]` - specifies optional details of your event.
   - The priority of your task: `[--priority <high|medium|low>]`.
   - How often your task is to repeat: `[--recur <none|daily|weekly|monthly|yearly>]`.
-  
+
+<p>&nbsp;</p>
 
 **Example**: `event Marquee Christmas Party --priority high --start 25-12-2020 22:00 --end 26-12-2020 04:00`
 - Adds an event task with the description '`Marquee Christmas Party`' to your task list.
 - Specifies that the priority of the task is '`high`'.
 - Specifies that the task starts on '`25-12-2020 22:00`' and ends on '`26-12-2020 04:00`'.
 - Specifies that the task will have no recurrence (default recurrence).
+
+<p>&nbsp;</p>
 
 **Expected Outcome**:
 
@@ -334,8 +343,12 @@ Filters your task list for all tasks that matches the filters applied.
   - Priority of the task: `[--priority <low|medium|high>]`.
   - Recurrence of the task: `[--recur <none|daily|weekly|monthly|yearly>]`.
 
+<p>&nbsp;</p>
+
 **Example**: `list --type todo --priority medium`
 - List all tasks that are of type `Todo` and has a priority of `medium`.
+
+<p>&nbsp;</p>
 
 **Expected Outcome**:
 
@@ -359,9 +372,13 @@ Displays the next four recurrences of a task in your task list.
 - `[id]` specifies the id of the task to display the next four recurrences of.
   >💡 **Note**: To obtain the correct task id of each task, please use the `list` command without any filters.
 
+<p>&nbsp;</p>
+
 **Example**: `list 3`
 - Lists the next four recurrences of the task with the index `3`.
 - The task at index `3` has a recurrence of `monthly`, so the command will print the next four months of the event.
+
+<p>&nbsp;</p>
 
 **Expected Outcome**:
 
@@ -387,7 +404,11 @@ Allows you to list your tasks for the upcoming week.
 
 **Command Format**: `upcoming`
 
+<p>&nbsp;</p>
+
 **Example**: `upcoming`
+
+<p>&nbsp;</p>
 
 **Expected Outcome**:
 ```
@@ -413,9 +434,13 @@ Sorts your task list by a given criteria.
   - Description of the task: `description`.
   - Priority of the task: `priority`.
 
+<p>&nbsp;</p>
+
 **Example**: `sort --by priority` + `list`
 - Sort your current task list by `priority` from `high` to `low`.
 - Print out the sorted list with the `list` command.
+
+<p>&nbsp;</p>
 
 **Expected Outcome**:
 
@@ -475,9 +500,13 @@ Adds your modules and classes into your task list.
 - `<module code>` is the official module code of a module. E.g. `CS2113T`.
 - `<class number>` is the official class group number. E.g. `C02`.
 
+<p>&nbsp;</p>
+
 **Example**: `module CS2113T:C02;LAJ2203:1,A2,B4`
 
 - Adds class '`C02`' of the module '`CS2113T`' and classes '`1`', '`A2`', and '`B4`' of the module '`LAJ2203`' into your task list.
+
+<p>&nbsp;</p>
 
 **Expected outcome**:
 
@@ -500,7 +529,11 @@ Browse to links that were added to your `Lesson` with the [`edit`](#25-editing-y
 - `<index>` is the index of the task you want to browse to (open in an internet browser) in the most recent [list](#23-listing-your-tasks-list) command that you have run.
   >💡 **Note**: if the task you want to browse to was not in your most recent [list](#23-listing-your-tasks-list) command, simply type `list` to list all your tasks and use its corresponding index to browse to the task's url.
 
+<p>&nbsp;</p>
+
 **Example**: `browse 2`
+
+<p>&nbsp;</p>
 
 **Expected outcome**:
 ```
@@ -543,9 +576,12 @@ Deletes all task(s) specified in a comma-separated argument.
    - `delete 5` would delete the task with the index 5.
       >💡 **Note**: It does not matter if there are any spaces in-between the commas.
 
+<p>&nbsp;</p>
 
 **Example**: `delete 1-3, 5`
 - delete the tasks with indexes 1, 2, 3 and 5.
+
+<p>&nbsp;</p>
 
 **List before deletion**:
 
