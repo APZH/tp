@@ -162,8 +162,6 @@ There are **3 types of tasks** you can add to your task list.
 ### 2.2.1 Todo: `todo`
 Adds a `todo` to your task list.
 
-<p>&nbsp;</p>
-
 **Command Format**: `todo <description> [--flag <argument>]`
 - `<description>` specifies the description of your `todo` task.
 - `[--flag <argument>]` specifies the following optional details of your `todo` task:
@@ -193,10 +191,10 @@ Adds a `todo` to your task list.
 -------------------------------------------------------------------------
 ```
 
+<p>&nbsp;</p>
+
 ### 2.2.2 Deadline: `deadline`
 Adds a `deadline` to your task list.
-
-<p>&nbsp;</p>
 
 **Command Format**: `deadline <description> <--due dd/MM/yyyy HH:mm> [--flag <argument>]`
 - `<description>` specifies the description of your deadline.
@@ -224,6 +222,8 @@ Adds a `deadline` to your task list.
 || [D] CS2106 Lab 3 <high> {none} (dueDate: 20-10-2021 02:00)
 -------------------------------------------------------------------------
 ```
+
+<p>&nbsp;</p>
 
 ### 2.2.3 Event: `event`
 Adds an `event` to your task list.
@@ -255,6 +255,8 @@ Adds an `event` to your task list.
 || [E] Marquee Christmas Party <high> {none} (startDate: 25-12-2020 22:00 - endDate: 26-12-2020 04:00)
 -------------------------------------------------------------------------
 ```
+
+<p>&nbsp;</p>
 
 ### 2.2.4 Date Format: `<dateFormat>`
 
@@ -346,6 +348,8 @@ List all tasks currently stored locally in your task list.
 -------------------------------------------------------------------------
 ```
 
+<p>&nbsp;</p>
+
 ### 2.3.2 Filtering your task list
 Filters your task list for all tasks that matches the filters applied.
 
@@ -370,6 +374,8 @@ Filters your task list for all tasks that matches the filters applied.
 || 2. [T] wash clothes <medium> {weekly} (doOn: 10-11-2021 02:00)
 -------------------------------------------------------------------------
 ```
+
+<p>&nbsp;</p>
 
 ### 2.3.3 Listing the recurrence of a task
 Displays the next four recurrences of a task in your task list.
@@ -398,6 +404,8 @@ Displays the next four recurrences of a task in your task list.
 || -> 22-03-2022 04:00
 -------------------------------------------------------------------------
 ```
+
+<p>&nbsp;</p>
 
 ### 2.3.4 Listing your upcoming tasks: `upcoming`
 Allows you to list your tasks for the upcoming week.
@@ -507,6 +515,8 @@ Adds your modules and classes into your task list.
 || Added LAJ2203 B4
 -------------------------------------------------------------------------
 ```
+
+<p>&nbsp;</p>
 
 ### 2.6.2 Browse: `browse`
 Browse to links that were added to your `Lesson` with the [`edit`](#25-editing-your-tasks-edit) command.
