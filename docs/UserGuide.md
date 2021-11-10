@@ -57,6 +57,8 @@ This section serves to ensure you have installed all additional pieces of softwa
 
 Please kindly follow the instructions below to install all necessary software:
 
+<p>&nbsp;</p>
+
 - **Step 1:** Download and install `Java 11` on your computer.
   - If you are using Windows, click [here](https://corretto.aws/downloads/latest/amazon-corretto-11-x64-windows-jdk.msi) to download.
   - If you are using Macintosh, click [here](https://corretto.aws/downloads/latest/amazon-corretto-11-x64-macos-jdk.pkg) to download.
@@ -88,9 +90,16 @@ Please kindly follow the instructions below to install all necessary software:
 
 This section serves to provide a step-by-step guide to download and install the official **SchedUrMods** application.
 
-- **Step 1:** Download the latest version of SchedUrMods [here](https://github.com/AY2122S1-CS2113T-W13-3/tp/releases/latest).
 <p>&nbsp;</p>
+
+- **Step 1:** Download the latest version of SchedUrMods [here](https://github.com/AY2122S1-CS2113T-W13-3/tp/releases/latest).
+
+<p>&nbsp;</p>
+
 - **Step 2:** Create an empty folder called 'SchedUrMods', and copy the downloaded application into it.
+
+<p>&nbsp;</p>
+
 - **Step 3:** In the 'SchedUrMods' folder, type `cmd` on the File Explorer Bar to launch a **command prompt** as shown below.
 
 
@@ -98,17 +107,18 @@ This section serves to provide a step-by-step guide to download and install the 
       <img src="UG_images/cmd_in_home_folder.png">
   </p>
 
+<p>&nbsp;</p>
 
 - **Step 4:** Type `java -jar SchedUrMods.jar` into the command prompt to start the SchedUrMods application.
-- **Step 5:** The following display should appear in a few seconds.
-
+  The following display should appear in a few seconds.
 
   <p align="center">
       <img src="UG_images/welcome_display_cmd.png">
   </p>
 
+<p>&nbsp;</p>
 
-- **Step 6:** Congratulations, have successfully installed SchedUrMods! You may now enter 
+- **Step 5:** Congratulations, have successfully installed SchedUrMods! You may now enter 
 commands into SchedUrMods.
 
 Please refer to the [Features](#2-features) section of the User Guide for more details of the commands available.
