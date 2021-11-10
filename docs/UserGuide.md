@@ -32,11 +32,11 @@ Below is the guide on how you can get started using our program to start **"Sche
 - [3. FAQ](#3-faq)
 - [4. Command Summary](#4-command-summary)
 
----
-
 ## 1. Getting Started
+This section will bring you through a step-by-step guide on how to 
+install the SchedUrMods application on your computer.
 
-This section will bring you through a step-by-step guide on how to install the SchedUrMods application on your computer.
+---
 
 ### 1.1 Device Requirements
 
@@ -49,11 +49,11 @@ Please kindly follow the instructions below to install all necessary software:
   - If you are using Macintosh, click [here](https://corretto.aws/downloads/latest/amazon-corretto-11-x64-macos-jdk.pkg) to download.
   - If you are using Linux, click [here](https://corretto.aws/downloads/latest/amazon-corretto-11-x64-linux-jdk.deb) to download.
 
-  >💡 Tip: If you are unsure on how to install `Java 11` on your computer, click [here](https://www.youtube.com/watch?v=-p0NTsSHlxg) for a short video tutorial.
+  >💡 **Tip:** If you are unsure on how to install `Java 11` on your computer, click [here](https://www.youtube.com/watch?v=-p0NTsSHlxg) for a short video tutorial.
 
 - **Step 2:** After successfully installing `Java 11`, open up a **command prompt** on your computer.
 
-  >💡 Tip: If you are unsure on how to open a **command prompt** on your computer, click [here](https://www.digitalcitizen.life/open-cmd/) for a quick guide.
+  >💡 **Tip:** If you are unsure on how to open a **command prompt** on your computer, click [here](https://www.digitalcitizen.life/open-cmd/) for a quick guide.
 
 - **Step 3:** Type `java --version` into the **command prompt** and check that the version number is `11.0.12`, as shown in the example below.
   
@@ -95,8 +95,8 @@ This section serves to provide a step-by-step guide to download and install the 
 ---
 
 ## 2. Features
-
-This section
+This section teaches you all the commands you can use to manage your very 
+own virtual task list in the SchedUrMods application.
 
 ---
 
@@ -104,8 +104,6 @@ This section
 Displays all available commands for the SchedUrMods application.
 
 **Format**: `help`
-
----
 
 ### 2.2 Adding your tasks:
 
