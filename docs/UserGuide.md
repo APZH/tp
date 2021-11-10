@@ -3,7 +3,7 @@
 </p>
 
 # SchedUrMods User Guide
-Welcome to SchedUrMods User Guide!
+**Welcome to SchedUrMods User Guide!**
 
 SchedUrMods is a desktop application that simplifies task and timetable
 management for NUS students through the use of a virtual task list.
@@ -13,8 +13,9 @@ someone that can type fast, SchedUrMods can definitely help you manage your NUS 
 faster than a traditional GUI application.
 
 **The purpose of this User Guide is to:**
-- Familiarise users on how to use our application
-- 
+- Introduce you to SchedUrMods features.
+- Guide you through using SchedUrMods for your personal use.
+- Provide troubleshooting for issues you may face when using SchedUrMods.
 
 ## Overview <a id="scrollToHere"></a>
 - [1. Getting Started](#1-getting-started)
@@ -51,7 +52,7 @@ install the SchedUrMods application on your computer.
 
 ### 1.1 Device Requirements
 
-This section serves to ensure you have installed all additional pieces of software required to run the SchedUrMods application. 
+**This section serves to ensure you have installed all additional pieces of software required to run the SchedUrMods application.**
 
 Please kindly follow the instructions below to install all necessary software:
 
@@ -78,7 +79,7 @@ Please kindly follow the instructions below to install all necessary software:
 
 ### 1.2 Setting Up SchedUrMods
 
-This section serves to provide a step-by-step guide to download and install the official **SchedUrMods** application.
+**This section serves to provide a step-by-step guide to download and install the official **SchedUrMods** application.**
 
 - **Step 1:** Download the latest version of SchedUrMods [here](https://github.com/AY2122S1-CS2113T-W13-3/tp/releases/latest).
 - **Step 2:** Create an empty folder called 'SchedUrMods', and copy the downloaded application into it.
@@ -107,10 +108,8 @@ Please refer to the [features](#2-features) below for more details of the comman
 ---
 
 ## 2. Features
-This section teaches you all the commands you can use to manage your very 
-own virtual task list in the SchedUrMods application.
-
----
+**This section teaches you all the commands you can use to manage your very 
+own virtual task list in the SchedUrMods application.**
 
 ### 2.1 Viewing help : `help`
 Displays all available commands for the SchedUrMods application.
