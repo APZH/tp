@@ -55,7 +55,7 @@ install the SchedUrMods application on your computer.
 
 This section serves to ensure you have installed all additional pieces of software required to run the SchedUrMods application. 
 
-Please kindly follow the instructions below to install all necessary software:
+**Please kindly follow the instructions below to install all necessary software:**
 
 - **Step 1:** Download and install `Java 11` on your computer.
   - If you are using Windows, click [here](https://corretto.aws/downloads/latest/amazon-corretto-11-x64-windows-jdk.msi) to download.
@@ -88,7 +88,7 @@ Please kindly follow the instructions below to install all necessary software:
 
 This section serves to provide a step-by-step guide to download and install the official **SchedUrMods** application.
 
-Please kindly follow the instructions below to set up the SchedUrMods application:
+**Please kindly follow the instructions below to set up the SchedUrMods application:**
 
 - **Step 1:** Download the latest version of SchedUrMods [here](https://github.com/AY2122S1-CS2113T-W13-3/tp/releases/latest) and click 
 on `SchedUrMods.jar` as shown in the image below.
