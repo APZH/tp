@@ -46,10 +46,13 @@ faster than a traditional GUI application.
 
 <div style="page-break-after: always;"></div>
 
+---
 
 # 1. Getting Started
 This section will bring you through a step-by-step guide on how to 
 install the SchedUrMods application on your computer.
+
+---
 
 ## 1.1 Device Requirements
 
@@ -130,9 +133,13 @@ Please refer to the [Features](#2-features) section of the User Guide for more d
 
 <div style="page-break-after: always;"></div>
 
+---
+
 # 2. Features
 This section teaches you all the commands you can use to manage your very 
 own virtual task list in the SchedUrMods application.
+
+---
 
 ## 2.1 Viewing help : `help`
 Displays all available commands for the SchedUrMods application.
