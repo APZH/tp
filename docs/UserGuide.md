@@ -319,31 +319,10 @@ List all tasks currently stored locally in your task list.
     - For a `Todo`, it represents the date and time to do the task.
     - For a `Deadline`, it represents the due date of the task.
     - For an `Event`, it represents the start date and end date of the event.
-    - For a `Lesson`, it represents the date and duration of the lesson.
-
->💡 **Note**: For `Lesson` tasks, the task date field is combined with the task description.
-
-**Example**: `list`
-- List all tasks that are in your task list.
-
-**Expected Outcome**:
-
-```
--------------------------------------------------------------------------
-[user]: list
-|| -------------
-||  MY TASK LIST
-|| -------------
-|| 1. [T] read book <low> {daily} (doOn: 05-11-2021 02:00)
-|| 2. [D] return book <medium> {weekly} (dueDate: 11-11-2021 03:00)
-|| 3. [E] project meeting <high> {monthly} (startDate: 22-11-2021 04:00 - endDate: 22-11-2021 05:00)
-|| 4. [T] exercise <medium> {none} (doOn: 04-11-2021 18:00)
-|| 5. [T] wash clothes <medium> {weekly} (doOn: 10-11-2021 02:00)
-|| 6. [D] project submission <high> {monthly} (dueDate: 21-11-2021 03:00)
-|| 7. [E] movie screening <low> {daily} (startDate: 05-11-2021 04:00 - endDate: 05-11-2021 05:00)
--------------------------------------------------------------------------
-```
-
+    - For a `Lesson`, it represents the date and duration of the lesson
+    
+      >💡 **Note**: For `Lesson` tasks, the task date field is combined with the task description.
+    
 <p>&nbsp;</p>
 
 ### 2.3.2 Filtering your task list
