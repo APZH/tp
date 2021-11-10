@@ -6,7 +6,9 @@ SchedUrMods can help you manage your daily tasks faster as compared to a traditi
 Below is the guide on how you can get started using our program to start **"Scheduling Ur Mods!"**.  
 
 # Overview <a id="scrollToHere"></a>
-- [1. Quick Start](#1-quick-start)
+- [1. Getting Started](#1-getting-started)
+  - [1.1 Device Requirements](#11-device-requirements)
+  - [1.2 Installing SchedUrMods](#12-installing-schedurmods)
 - [2. Features](#2-features)
     - [2.1 Viewing help: `help`](#21-viewing-help--help)
     - [2.2 Adding your tasks:](#22-adding-your-tasks)
@@ -32,7 +34,7 @@ Below is the guide on how you can get started using our program to start **"Sche
 
 ---
 
-# 1. Setting up SchedUrMods on your device
+# 1. Getting Started
 
 This section will bring you through a step-by-step guide on how to install the SchedUrMods application on your computer.
 
@@ -61,7 +63,7 @@ Please kindly follow the instructions below to install all necessary software:
 
 - **Step 4:** If the version number matches, you have succeeded in installing `Java 11` on your device.
 
-## 1.2 Installation
+## 1.2 Installing SchedUrMods
 
 This section serves to provide a step-by-step guide to download and install the official **SchedUrMods** application.
 
@@ -74,28 +76,18 @@ This section serves to provide a step-by-step guide to download and install the 
   </p>
 
 - **Step 4:** Type `java -jar SchedUrMods.jar` into the command prompt to start the SchedUrMods application.
-- **Step 5:** The following display should appear in a few seconds. 
-
-1. Ensure you have [Java **11** jdk](https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/downloads-list.html) installed in your Computer, 
-and that `java` is in your `PATH` environment variable.
-2. Download the latest jar file from [here](https://github.com/AY2122S1-CS2113T-W13-3/tp/releases/latest).
-   > **⚠️Warning**: Do *not* decompress any jar file even if it shows as an archive on your file manager.
-3. Move the jar file to the folder you want to use as the _home folder_ for SchedUrMods.
-   >💡 **Note**: Ensure you have permission to create files and folders in this _home folder_.
-4. Open a terminal window in the _home folder_ you created in step 3.
-5. Type `java -jar SchedUrMods.jar` into the terminal to start SchedUrMods.
-6. The following display should appear in a few seconds:
+- **Step 5:** The following display should appear in a few seconds.
 
   <p align="center">
       <img src="UG_images/welcome_display_cmd.png">
   </p>
 
-7. You may now enter commands into SchedUrMods. Type a command beside
+- **Step 6:** You may now enter commands into SchedUrMods. Type a command beside
 `[user]:` (as shown above) and press `Enter` on your keyboard to execute the command.
-8. Refer to the [Features](#2-features) below for more details of the commands available.
+- **Step 7:** Refer to the [features](#2-features) below for more details of the commands available.
 
-## 2. Features
-### 2.1 Viewing help : `help`
+# 2. Features
+## 2.1 Viewing help : `help`
 Displays all available commands for the SchedUrMods application.
 
 **Format**: `help`
