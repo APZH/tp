@@ -137,6 +137,8 @@ own virtual task list in the SchedUrMods application.
 
 ---
 
+<p>&nbsp;</p>
+
 > #### 📝 **Notes about the command format**:
 > - All commands are case-insensitive. For example, `todo` is the same as `Todo` or `TODO`.
 > - Command arguments within `< >` are **mandatory** fields.
@@ -144,6 +146,8 @@ own virtual task list in the SchedUrMods application.
 > - Command arguments such as `<a|b|c>` means that the argument must **strictly** either be `a`, `b` or `c`.
 > - If the `[--priority <high|medium|low>]` flag is not used, the **default priority** will be set to `medium`.
 > - If the `[--recur <none|daily|weekly|monthly|yearly>]` flag is not used, the **default recurrence** will be set to `none`.
+
+<p>&nbsp;</p>
 
 ## 2.1 Viewing help : `help`
 Displays all available commands for the SchedUrMods application.
