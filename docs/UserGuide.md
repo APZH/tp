@@ -159,12 +159,14 @@ Displays all available commands for the SchedUrMods application.
 ## 2.2 Adding your tasks:
 There are **3 types of tasks** you can add to your task list.
 
+<p>&nbsp;</p>
+
 ### 2.2.1 Todo: `todo`
 Adds a `todo` to your task list.
 
 **Command Format**: `todo <description> [--flag <argument>]`
-- `<description>` specifies the description of your `todo` task.
-- `[--flag <argument>]` specifies the following optional details of your `todo` task:
+- `<description>` - specifies the description of your `todo` task.
+- `[--flag <argument>]` - specifies the following optional details of your `todo` task:
   - When your task is to be done: <code>[--doOn <a href="#224-date-format-dateformat">&lt;dateFormat&gt;</a>]</code>.
   - The priority of your task: `[--priority high|medium|low]`.
   - How often your task is to repeat: `[--recur daily|weekly|monthly|yearly]`.
@@ -193,9 +195,9 @@ Adds a `todo` to your task list.
 Adds a `deadline` to your task list.
 
 **Command Format**: `deadline <description> <--due dd/MM/yyyy HH:mm> [--flag <argument>]`
-- `<description>` specifies the description of your deadline.
-- <code>&lt;--due <a href="#224-date-format-dateformat">&lt;dateFormat&gt;</a>&gt;</code> specifies when your deadline is due.
-- `[--flag <argument>]` specifies optional details of your deadline.
+- `<description>` - specifies the description of your deadline.
+- <code>&lt;--due <a href="#224-date-format-dateformat">&lt;dateFormat&gt;</a>&gt;</code> - specifies when your deadline is due.
+- `[--flag <argument>]` - specifies optional details of your deadline.
   - The priority of your task: `[--priority <high|medium|low>]`.
   - How often your task is to repeat: `[--recur <none|daily|weekly|monthly|yearly>]`.
   
@@ -221,10 +223,10 @@ Adds a `deadline` to your task list.
 Adds an `event` to your task list.
 
 **Command Format**: `event <description> <--start dd/MM/yyyy HH:mm> <--end dd/MM/yyyy HH:mm> [--flag <argument>]`
-- `<description>` specifies the description of your event.
-- <code>&lt;--start <a href="#224-date-format-dateformat">&lt;dateFormat&gt;</a>&gt;</code> specifies when your event starts.
-- <code>&lt;--end <a href="#224-date-format-dateformat">&lt;dateFormat&gt;</a>&gt;</code> specifies when your event ends.
-- `[--flag <argument>]` specifies optional details of your event.
+- `<description>` - specifies the description of your event.
+- <code>&lt;--start <a href="#224-date-format-dateformat">&lt;dateFormat&gt;</a>&gt;</code> - specifies when your event starts.
+- <code>&lt;--end <a href="#224-date-format-dateformat">&lt;dateFormat&gt;</a>&gt;</code> - specifies when your event ends.
+- `[--flag <argument>]` - specifies optional details of your event.
   - The priority of your task: `[--priority <high|medium|low>]`.
   - How often your task is to repeat: `[--recur <none|daily|weekly|monthly|yearly>]`.
   
@@ -289,10 +291,15 @@ List all tasks currently stored locally in your task list.
 
 **Command Format**: `list`
 - The command displays the following 6 information for each task:
+
+  <p align="center">
+      <img src="UG_images/list_fields.png">
+  </p>
+
   - **1. Task index**:
     - A positive integer i.e. `1.` which identifies the task. This index is used to identify tasks in the [`edit`](#25-editing-your-tasks-edit), [`browse`](#262-browse-browse) and [`delete`](#27-deleting-your-tasks-delete) commands.
   - **2. Task type**:
-    - A task can either be a Todo, Deadline, Event or Lesson and they are all represented with the first letter of their task type.
+    - A task can either be a Todo, Deadline, Event or Lesson, and they are all represented with the first letter of their task type.
     - `[T]` represents a `Todo`.
     - `[D]` represents a `Deadline`.
     - `[E]` represents a `Event`.
