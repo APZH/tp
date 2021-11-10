@@ -1,6 +1,15 @@
+<p align="center">
+    <img src="UG_images/logo.png">
+</p>
+
 # SchedUrMods User Guide
-SchedUrMods is a **desktop application for NUS Students to manage their NUSMODS timetable and
-everyday tasks optimised for usage via a Command Line Interface (CLI).** If you can type fast, 
+Welcome to SchedUrMods User Guide!
+
+SchedUrMods is a desktop application for NUS Students to manage their timetable and
+everyday tasks through a virtual task list. 
+
+
+optimised for usage via a Command Line Interface (CLI).** If you can type fast, 
 SchedUrMods can help you manage your daily tasks faster as compared to a traditional GUI application.
 
 Below is the guide on how you can get started using our program to start **"Scheduling Ur Mods!"**.  
@@ -8,7 +17,7 @@ Below is the guide on how you can get started using our program to start **"Sche
 ## Overview <a id="scrollToHere"></a>
 - [1. Getting Started](#1-getting-started)
   - [1.1 Device Requirements](#11-device-requirements)
-  - [1.2 Installing SchedUrMods](#12-installing-schedurmods)
+  - [1.2 Setting Up SchedUrMods](#12-setting-up-schedurmods)
 - [2. Features](#2-features)
     - [2.1 Viewing help: `help`](#21-viewing-help--help)
     - [2.2 Adding your tasks:](#22-adding-your-tasks)
@@ -65,7 +74,7 @@ Please kindly follow the instructions below to install all necessary software:
 
 - **Step 4:** If the version number matches, you have succeeded in installing `Java 11` on your device.
 
-### 1.2 Installing SchedUrMods
+### 1.2 Setting Up SchedUrMods
 
 This section serves to provide a step-by-step guide to download and install the official **SchedUrMods** application.
 
@@ -88,9 +97,10 @@ This section serves to provide a step-by-step guide to download and install the 
   </p>
 
 
-- **Step 6:** You may now enter commands into SchedUrMods. Type a command beside
-`[user]:` (as shown above) and press `Enter` on your keyboard to execute the command.
-- **Step 7:** Refer to the [features](#2-features) below for more details of the commands available.
+- **Step 6:** Congratulations, have successfully installed SchedUrMods! You may now enter 
+commands into SchedUrMods.
+
+Please refer to the [features](#2-features) below for more details of the commands available.
 
 ---
 
