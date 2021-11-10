@@ -30,11 +30,11 @@ Below is the guide on how you can get started using our program to start **"Sche
 - [3. FAQ](#3-faq)
 - [4. Command Summary](#4-command-summary)
 
+---
+
 # 1. Setting up SchedUrMods on your device
 
 This section will bring you through a step-by-step guide on how to install the SchedUrMods application on your computer.
-
----
 
 ## 1.1 Device Requirements
 
@@ -42,11 +42,17 @@ This section serves to ensure you have installed all additional pieces of softwa
 
 Please kindly follow the instructions below to install all necessary software:
 
-- **Step 1:** Download and install `Java 11` on your device.
-  - > If you are using Windows, click [here]() to download `Java 11`.
-  - > If you are using Macintosh, click [here]() to download `Java 11`.
-  - > If you are using Linux, click [here]() to download `Java 11`.
-- **Step 2:** 
+- **Step 1:** Download and install `Java 11` on your computer.
+  - If you are using Windows, click [here](https://corretto.aws/downloads/latest/amazon-corretto-11-x64-windows-jdk.msi) to download.
+  - If you are using Macintosh, click [here](https://corretto.aws/downloads/latest/amazon-corretto-11-x64-macos-jdk.pkg) to download.
+  - If you are using Linux, click [here](https://corretto.aws/downloads/latest/amazon-corretto-11-x64-linux-jdk.deb) to download.
+    > If you are unsure on how to install `Java 11` on your device, click [here](https://www.youtube.com/watch?v=-p0NTsSHlxg) for a short video tutorial.
+
+- **Step 2:** After successfully installing `Java 11`, open up a command prompt on your computer.
+- **Step 3:** Type `java --version` and check that the version number is `11.0.12`, as shown in the example below.
+  <p align="center">
+      <img src="UG_images/check_java_version.png">
+  </p>
 
 ## 1.2 Installation
 
