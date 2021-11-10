@@ -5,7 +5,7 @@ SchedUrMods can help you manage your daily tasks faster as compared to a traditi
 
 Below is the guide on how you can get started using our program to start **"Scheduling Ur Mods!"**.  
 
-# Overview <a id="scrollToHere"></a>
+## Overview <a id="scrollToHere"></a>
 - [1. Getting Started](#1-getting-started)
   - [1.1 Device Requirements](#11-device-requirements)
   - [1.2 Installing SchedUrMods](#12-installing-schedurmods)
@@ -34,11 +34,11 @@ Below is the guide on how you can get started using our program to start **"Sche
 
 ---
 
-# 1. Getting Started
+## 1. Getting Started
 
 This section will bring you through a step-by-step guide on how to install the SchedUrMods application on your computer.
 
-## 1.1 Device Requirements
+### 1.1 Device Requirements
 
 This section serves to ensure you have installed all additional pieces of software required to run the SchedUrMods application. 
 
@@ -57,13 +57,15 @@ Please kindly follow the instructions below to install all necessary software:
 
 - **Step 3:** Type `java --version` into the **command prompt** and check that the version number is `11.0.12`, as shown in the example below.
   
+
   <p align="center">
       <img src="UG_images/check_java_version.png">
   </p>
 
+
 - **Step 4:** If the version number matches, you have succeeded in installing `Java 11` on your device.
 
-## 1.2 Installing SchedUrMods
+### 1.2 Installing SchedUrMods
 
 This section serves to provide a step-by-step guide to download and install the official **SchedUrMods** application.
 
@@ -71,26 +73,39 @@ This section serves to provide a step-by-step guide to download and install the 
 - **Step 2:** Create an empty folder called 'SchedUrMods', and copy the downloaded application into it.
 - **Step 3:** In the 'SchedUrMods' folder, type `cmd` on the File Explorer Bar to launch a **command prompt** as shown below.
 
+
   <p align="center">
       <img src="UG_images/cmd_in_home_folder.png">
   </p>
 
+
 - **Step 4:** Type `java -jar SchedUrMods.jar` into the command prompt to start the SchedUrMods application.
 - **Step 5:** The following display should appear in a few seconds.
+
 
   <p align="center">
       <img src="UG_images/welcome_display_cmd.png">
   </p>
 
+
 - **Step 6:** You may now enter commands into SchedUrMods. Type a command beside
 `[user]:` (as shown above) and press `Enter` on your keyboard to execute the command.
 - **Step 7:** Refer to the [features](#2-features) below for more details of the commands available.
 
-# 2. Features
-## 2.1 Viewing help : `help`
+---
+
+## 2. Features
+
+This section
+
+---
+
+### 2.1 Viewing help : `help`
 Displays all available commands for the SchedUrMods application.
 
 **Format**: `help`
+
+---
 
 ### 2.2 Adding your tasks:
 
