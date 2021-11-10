@@ -46,8 +46,6 @@ faster than a traditional GUI application.
 
 <div style="page-break-after: always;"></div>
 
----
-
 # 1. Getting Started
 This section will bring you through a step-by-step guide on how to 
 install the SchedUrMods application on your computer.
@@ -132,8 +130,6 @@ commands into SchedUrMods.
 Please refer to the [Features](#2-features) section of the User Guide for more details of the commands available.
 
 <div style="page-break-after: always;"></div>
-
----
 
 # 2. Features
 This section teaches you all the commands you can use to manage your very 
