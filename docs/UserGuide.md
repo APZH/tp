@@ -5,14 +5,16 @@
 # SchedUrMods User Guide
 Welcome to SchedUrMods User Guide!
 
-SchedUrMods is a desktop application for NUS Students to manage their timetable and
-everyday tasks through a virtual task list. 
+SchedUrMods is a desktop application that simplifies task and timetable
+management for NUS students through the use of a virtual task list.
 
+SchedUrMods is optimised for usage via a Command Line Interface (CLI). If you are
+someone that can type fast, SchedUrMods can definitely help you manage your NUS semester 
+faster than a traditional GUI application.
 
-optimised for usage via a Command Line Interface (CLI).** If you can type fast, 
-SchedUrMods can help you manage your daily tasks faster as compared to a traditional GUI application.
-
-Below is the guide on how you can get started using our program to start **"Scheduling Ur Mods!"**.  
+**The purpose of this User Guide is to:**
+- Familiarise users on how to use our application
+- 
 
 ## Overview <a id="scrollToHere"></a>
 - [1. Getting Started](#1-getting-started)
