@@ -135,6 +135,14 @@ Please refer to the [Features](#2-features) section of the User Guide for more d
 This section teaches you all the commands you can use to manage your very 
 own virtual task list in the SchedUrMods application.
 
+> #### 📝 **Notes about the command format**:
+> - All commands are case-insensitive. For example, `todo` is the same as `Todo` or `TODO`.
+> - Command arguments within `< >` are **mandatory** fields.
+> - Command arguments within `[ ]` are **optional** fields and may be arranged in any order.
+> - Command arguments such as `<a|b|c>` means that the argument must **strictly** either be `a`, `b` or `c`.
+> - If the `[--priority <high|medium|low>]` flag is not used, the **default priority** will be set to `medium`.
+> - If the `[--recur <none|daily|weekly|monthly|yearly>]` flag is not used, the **default recurrence** will be set to `none`.
+
 ---
 
 ## 2.1 Viewing help : `help`
@@ -146,14 +154,6 @@ Displays all available commands for the SchedUrMods application.
 
 ## 2.2 Adding your tasks:
 There are **3 types of tasks** you can add to your task list.
-
-> #### 📝 **Some notes when adding tasks**:
-> - All commands are case-insensitive. For example, `todo` is the same as `Todo` or `TODO`.
-> - Command arguments within `< >` are **mandatory** fields and must be followed strictly.
-> - Command arguments within `[ ]` are **optional** fields and may be arranged in any order or left out.
-> - Command arguments such as `<a|b|c>` Means that the argument must **strictly** either be `a`, `b` or `c`. 
-> - If `[--priority <high|medium|low>]` flag is not used, the **default priority** will be set to `medium`. 
-> - If `[--recur <none|daily|weekly|monthly|yearly>]` flag is not used, the **default recurrence** will be set to `none`. 
 
 ### 2.2.1 Todo: `todo`
 Adds a `todo` to your task list.
