@@ -134,6 +134,8 @@ Displays all available commands for the SchedUrMods application.
 
 **Format**: `help`
 
+<p>&nbsp;</p>
+
 ## 2.2 Adding your tasks:
 There are **3 types of tasks** you can add to your task list.
 
@@ -257,6 +259,8 @@ The accepted date formats in SchedUrMods are:
 - `03-10-2004 03` translates to `3rd October 2004, 3:00am`.
 - `15:30` translates to `Your current year, month and day at 3.30pm`.
 - `15 12:30` translates to `Your current year and month on the 15th at 12.30pm`.
+
+<p>&nbsp;</p>
 
 ## 2.3 Listing your tasks: `list`
 
@@ -388,6 +392,8 @@ Allows you to list your tasks for the upcoming week.
 -------------------------------------------------------------------------
 ```
 
+<p>&nbsp;</p>
+
 ## 2.4 Sorting your task list: `sort`
 Sorts your task list by a given criteria.
 
@@ -422,6 +428,8 @@ Sorts your task list by a given criteria.
 -------------------------------------------------------------------------
 ```
 
+<p>&nbsp;</p>
+
 ## 2.5 Editing your tasks: `edit`
 Allows you to edit the details of your [Todo](#221-todo-todo), [Deadline](#222-deadline-deadline), or [Event](#223-event-event) tasks in your task list.
 
@@ -441,6 +449,8 @@ Allows you to edit the details of your [Todo](#221-todo-todo), [Deadline](#222-d
   - <code>--end <a href="#224-date-format-dateformat">&lt;dateFormat&gt;</a></code> modifies when your [Event](#223-event-event) ends.
   - `--link <url>` modifies your Lesson link.
 
+
+<p>&nbsp;</p>
 
 ## 2.6 Adding your NUS timetable:
 
@@ -505,6 +515,8 @@ Browse to links that were added to your `Lesson` with the [`edit`](#25-editing-y
 > ```
 > You can conveniently list the tasks and see if the lesson has a link.
 
+<p>&nbsp;</p>
+
 ## 2.7 Deleting your tasks: `delete`
 Deletes all task(s) specified in a comma-separated argument.
 
@@ -565,6 +577,8 @@ Deletes all task(s) specified in a comma-separated argument.
 -------------------------------------------------------------------------
 ```
 
+<p>&nbsp;</p>
+
 ## 2.8 Exiting the program: `bye`
 Displays goodbye message and exits the program.
 
@@ -579,10 +593,13 @@ Displays goodbye message and exits the program.
 -------------------------------------------------------------------------
 ```
 
+<p>&nbsp;</p>
+
 ## 2.9 Storage
 The program will store and automatically update your tasks in the file `[project directory]/data/task.dat` on any change to your task list.  
    > **⚠️Warning**: The SchedUrMods team **strongly discourages** users from directly modifying Task data in `task.dat` as it can lead to undefined behaviour. The team **will not be responsible** for any *loss of data* or *undefined behaviour* as a result of users directly modifying values in the save file.
 
+<div style="page-break-after: always;"></div>
 
 # 3. FAQ
 **Q**: What operating systems can the application work on?
