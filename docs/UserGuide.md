@@ -187,7 +187,7 @@ own virtual task list in the SchedUrMods application.
 ## **2.1 Viewing help :** `help`
 Displays all available commands for the SchedUrMods application.
 
-**Command Format**: `help`
+**Format:** `help`
 
 <p>&nbsp;</p>
 
@@ -197,18 +197,18 @@ There are **3 types of tasks** you can add to your task list.
 ### 2.2.1 Todo: `todo`
 Adds a `todo` to your task list.
 
-**Command Format**: `todo <description> [--flag <argument>]`
+**Format:** `todo <description> [--flag <argument>]`
 - `<description>` - specifies the description of your todo.
 - `[--flag <argument>]` - specifies the following optional details of your todo:
   - When your task is to be done: <code>[--doOn <a href="#224-date-format-dateformat">&lt;dateFormat&gt;</a>]</code>.
   - The priority of your task: `[--priority high|medium|low]`
   - How often your task is to repeat: `[--recur daily|weekly|monthly|yearly]`.
 
->💡 **Note**: If the `--doOn` flag is unused, the task date will be set to the current time rounded up to the nearest hour.
+>💡 **Note:** If the `--doOn` flag is unused, the task date will be set to the current time rounded up to the nearest hour.
 
 <p>&nbsp;</p>
 
-**Command Example**: `todo read book --doOn 20-10-2021 02:00 --recur daily`
+**Example:** `todo read book --doOn 20-10-2021 02:00 --recur daily`
 
   <p align="center">
       <img src="UG_images/todo.png">
@@ -224,7 +224,7 @@ Adds a `todo` to your task list.
 ### 2.2.2 Deadline: `deadline`
 Adds a `deadline` to your task list.
 
-**Command Format**: `deadline <description> <--due dd/MM/yyyy HH:mm> [--flag <argument>]`
+**Command Format:** `deadline <description> <--due dd/MM/yyyy HH:mm> [--flag <argument>]`
 - `<description>` - specifies the description of your deadline.
 - <code>&lt;--due <a href="#224-date-format-dateformat">&lt;dateFormat&gt;</a>&gt;</code> - specifies when your deadline is due.
 - `[--flag <argument>]` - specifies optional details of your deadline.
@@ -233,7 +233,7 @@ Adds a `deadline` to your task list.
 
 <p>&nbsp;</p>
 
-**Example**: `deadline CS2106 Lab 3 --priority high --due 20-10-2021 02:00`
+**Example:** `deadline CS2106 Lab 3 --priority high --due 20-10-2021 02:00`
 
   <p align="center">
       <img src="UG_images/deadline.png">
@@ -249,7 +249,7 @@ Adds a `deadline` to your task list.
 ### 2.2.3 Event: `event`
 Adds an `event` to your task list.
 
-**Command Format**: `event <description> <--start dd/MM/yyyy HH:mm> <--end dd/MM/yyyy HH:mm> [--flag <argument>]`
+**Command Format:** `event <description> <--start dd/MM/yyyy HH:mm> <--end dd/MM/yyyy HH:mm> [--flag <argument>]`
 - `<description>` - specifies the description of your event.
 - <code>&lt;--start <a href="#224-date-format-dateformat">&lt;dateFormat&gt;</a>&gt;</code> - specifies when your event starts.
 - <code>&lt;--end <a href="#224-date-format-dateformat">&lt;dateFormat&gt;</a>&gt;</code> - specifies when your event ends.
@@ -259,7 +259,7 @@ Adds an `event` to your task list.
 
 <p>&nbsp;</p>
 
-**Example**: `event NUS mental wellness day --priority high --start 04-11-2021 08:00 --end 05-11-2021 08:00`
+**Example:** `event NUS mental wellness day --priority high --start 04-11-2021 08:00 --end 05-11-2021 08:00`
 
   <p align="center">
       <img src="UG_images/event.png">
@@ -285,7 +285,7 @@ The accepted date formats in SchedUrMods are:
 - `dd HH`
 - `HH`  
 
-**Legend**:
+**Legend:**
 - `dd` represents the **day** the of month.
 - `MM` represents the **month** the of year.
 - `yyyy` represents the **year**.
@@ -294,11 +294,11 @@ The accepted date formats in SchedUrMods are:
 - `HH` represents the **hour** of the day on a 24-hour clock.
 - `mm` represents the **minute** of the hour.
 
->💡 **Note**: When day (`dd`), month (`MM`) or year (`yyyy` or `yy`) is unspecified, they will be replaced with the **current** day, month and year respectively.
+>💡 **Note:** When day (`dd`), month (`MM`) or year (`yyyy` or `yy`) is unspecified, they will be replaced with the **current** day, month and year respectively.
 
->💡 **Note**: When minute (`mm`) is unspecified, it will be replaced with `0`.
+>💡 **Note:** When minute (`mm`) is unspecified, it will be replaced with `0`.
 
-**Examples**:
+**Examples:**
 - `03-10-2004 03` translates to `3rd October 2004, 3:00am`.
 - `15:30` translates to `Your current year, month and day at 3.30pm`.
 - `15 12:30` translates to `Your current year and month on the 15th at 12.30pm`.
@@ -312,46 +312,46 @@ There are **3 main features** you can use with the list command.
 ### 2.3.1 Listing your entire task list
 List all tasks currently stored locally in your task list.
 
-**Command Format**: `list`
+**Command Format:** `list`
 - The command displays the following 6 information for each task:
 
   <p align="center">
       <img src="UG_images/list_fields.png">
   </p>
 
-  - **1. Task index**:
+  - **1. Task index:**
     - A positive integer i.e. `1.` which identifies the task. This index is used to identify tasks in the [`edit`](#25-editing-your-tasks-edit), [`browse`](#262-browse-browse) and [`delete`](#27-deleting-your-tasks-delete) commands.
-  - **2. Task type**:
+  - **2. Task type:**
     - A task can either be a Todo, Deadline, Event or Lesson, and they are all represented with the first letter of their task type.
     - `[T]` represents a `Todo`.
     - `[D]` represents a `Deadline`.
     - `[E]` represents a `Event`.
     - `[L]` represents a `Lesson`.
-  - **3. Task description**:
+  - **3. Task description:**
     - General details of the task.
-  - **4. Task priority `[priority]`**:
+  - **4. Task priority `[priority]`:**
     - A task can either have `low`, `medium`, or `high` priority. 
     - This value determines the urgency of the task.
-  - **5. Task recurrence `{recurrence}`**:
+  - **5. Task recurrence `{recurrence}`:**
     - A task can either have `none`, `daily`, `weekly`, `monthly`, or `yearly` recurrence.
     - This value determines how often a task recurs.
     
-      >💡 **Note**: Tasks with a recurrence will automatically be recurred to the next date that has not occured yet every time you list them.
+      >💡 **Note:** Tasks with a recurrence will automatically be recurred to the next date that has not occured yet every time you list them.
       
-  - **6. Task date field**:
+  - **6. Task date field:**
     - For a `Todo`, it represents the date and time to do the task.
     - For a `Deadline`, it represents the due date of the task.
     - For an `Event`, it represents the start date and end date of the event.
     - For a `Lesson`, it represents the date and duration of the lesson
     
-      >💡 **Note**: For `Lesson` tasks, the task date field is combined with the task description.
+      >💡 **Note:** For `Lesson` tasks, the task date field is combined with the task description.
     
 <p>&nbsp;</p>
 
 ### 2.3.2 Filtering your task list
 Filters your task list for all tasks that matches the filters applied.
 
-**Command Format**: `list [--flag <argument>] [--flag <argument>] ...`
+**Command Format:** `list [--flag <argument>] [--flag <argument>] ...`
 - `[--flag <argument>]` specifies the filter to be applied to your task list.
   - Type of the task: `[--type <todo|deadline|event|lesson>]`.
   - Priority of the task: `[--priority <low|medium|high>]`.
@@ -359,7 +359,7 @@ Filters your task list for all tasks that matches the filters applied.
 
 <p>&nbsp;</p>
 
-**Example**: `list --type todo --priority medium`
+**Example:** `list --type todo --priority medium`
 
   <p align="center">
       <img src="UG_images/filter_list.png">
@@ -369,27 +369,15 @@ Filters your task list for all tasks that matches the filters applied.
 
 >💡 **Tip:** You may use all 3 flags available for the `list` command to narrow your task list filtering even more.
 
-**Expected Outcome**:
-
-```
--------------------------------------------------------------------------
-[user]: list --type todo --priority medium
-|| -------------
-||  MY TASK LIST
-|| -------------
-|| 1. [T] exercise <medium> {none} (doOn: 04-11-2021 18:00)
-|| 2. [T] wash clothes <medium> {weekly} (doOn: 10-11-2021 02:00)
--------------------------------------------------------------------------
-```
-
 <p>&nbsp;</p>
 
 ### 2.3.3 Listing the recurrence of a task
 Displays the next four recurrences of a task in your task list.
 
-**Command Format**: `list [id]`
-- `[id]` specifies the id of the task to display the next four recurrences of.
-  >💡 **Note**: To obtain the correct task id of each task, please use the `list` command without any filters.
+**Command Format:** `list [task index]`
+- `[task index]` specifies the id of the task to display the next four recurrences of.
+
+>💡 **Tip:** To obtain the correct task id of a task, please use the `list` command without any filters.
 
 <p>&nbsp;</p>
 
