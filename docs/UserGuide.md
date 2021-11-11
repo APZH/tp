@@ -272,18 +272,6 @@ Adds an `event` to your task list.
 
 <p>&nbsp;</p>
 
-**Expected Outcome**:
-
-```
--------------------------------------------------------------------------
-[user]: event Marquee Christmas Party --priority high --start 25-12-2020 22:00 --end 26-12-2020 04:00
-|| Task created!
-|| [E] Marquee Christmas Party <high> {none} (startDate: 25-12-2020 22:00 - endDate: 26-12-2020 04:00)
--------------------------------------------------------------------------
-```
-
-<p>&nbsp;</p>
-
 ### 2.2.4 Date Format: `<dateFormat>`
 
 When entering dates into SchedUrMods, we accept multiple date formats to allow you to reduce how much you have to type.  
@@ -306,7 +294,7 @@ The accepted date formats in SchedUrMods are:
 - `HH` represents the **hour** of the day on a 24-hour clock.
 - `mm` represents the **minute** of the hour.
 
->💡 **Note**: When day (`dd`), month (`MM`) or year (`yyyy` or `yy`) is unspecified, they will be replaced with the **current** day, month and year respectively.  
+>💡 **Note**: When day (`dd`), month (`MM`) or year (`yyyy` or `yy`) is unspecified, they will be replaced with the **current** day, month and year respectively.
 
 >💡 **Note**: When minute (`mm`) is unspecified, it will be replaced with `0`.
 
@@ -372,9 +360,14 @@ Filters your task list for all tasks that matches the filters applied.
 <p>&nbsp;</p>
 
 **Example**: `list --type todo --priority medium`
+
+  <p align="center">
+      <img src="UG_images/filter_list.png">
+  </p>
+
 - List all tasks that are of type `Todo` and has a priority of `medium`.
 
-<p>&nbsp;</p>
+>💡 **Tip:** You may use all 3 flags available for the `list` command to narrow your task list filtering even more.
 
 **Expected Outcome**:
 
