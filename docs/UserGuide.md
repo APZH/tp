@@ -208,7 +208,7 @@ Adds a `todo` to your task list.
 
 <p>&nbsp;</p>
 
-**Usage Example**: `todo read book --doOn 20-10-2021 02:00 --recur daily`
+**Command Example**: `todo read book --doOn 20-10-2021 02:00 --recur daily`
 
   <p align="center">
       <img src="UG_images/todo.png">
@@ -218,18 +218,6 @@ Adds a `todo` to your task list.
 - Specifies that the priority of the task is '`medium`' (default priority).
 - Specifies that the task is to be done on '`20-10-2021 02:00`'.
 - Specifies that the task is to repeat '`daily`'.
-
-<p>&nbsp;</p>
-
-**Expected Outcome**:
-
-```
--------------------------------------------------------------------------
-[user]: todo read book --doOn 20-10-2021 02:00 --recur daily
-|| Task created!
-|| [T] read book <medium> {daily} (doOn: 20-10-2021 02:00)
--------------------------------------------------------------------------
-```
 
 <p>&nbsp;</p>
 
@@ -246,6 +234,11 @@ Adds a `deadline` to your task list.
 <p>&nbsp;</p>
 
 **Example**: `deadline CS2106 Lab 3 --priority high --due 20-10-2021 02:00`
+
+  <p align="center">
+      <img src="UG_images/deadline.png">
+  </p>
+
 - Adds a deadline task with the description '`CS2106 Lab 3`' to your task list.
 - Specifies that the priority of the task is '`high`'.
 - Specifies that the task is to be done on '`20-10-2021 02:00`'.
