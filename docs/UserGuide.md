@@ -246,18 +246,6 @@ Adds a `deadline` to your task list.
 
 <p>&nbsp;</p>
 
-**Expected Outcome**:
-
-```
--------------------------------------------------------------------------
-[user]: deadline CS2106 Lab 3 --priority high --due 20-10-2021 02:00
-|| Task created!
-|| [D] CS2106 Lab 3 <high> {none} (dueDate: 20-10-2021 02:00)
--------------------------------------------------------------------------
-```
-
-<p>&nbsp;</p>
-
 ### 2.2.3 Event: `event`
 Adds an `event` to your task list.
 
@@ -271,10 +259,15 @@ Adds an `event` to your task list.
 
 <p>&nbsp;</p>
 
-**Example**: `event Marquee Christmas Party --priority high --start 25-12-2020 22:00 --end 26-12-2020 04:00`
-- Adds an event task with the description '`Marquee Christmas Party`' to your task list.
+**Example**: `event NUS mental wellness day --priority high --start 04-11-2021 08:00 --end 05-11-2021 08:00`
+
+  <p align="center">
+      <img src="UG_images/event.png">
+  </p>
+
+- Adds an event task with the description '`NUS mental wellness day`' to your task list.
 - Specifies that the priority of the task is '`high`'.
-- Specifies that the task starts on '`25-12-2020 22:00`' and ends on '`26-12-2020 04:00`'.
+- Specifies that the task starts on '`04-11-2021 08:00`' and ends on '`05-11-2021 08:00`'.
 - Specifies that the task will have no recurrence (default recurrence).
 
 <p>&nbsp;</p>
