@@ -180,7 +180,7 @@ own virtual task list in the SchedUrMods application.
 > - All commands are case-insensitive. For example, `todo` is the same as `Todo` or `TODO`.
 > - Command arguments within `< >` are **mandatory** fields.
 > - Command arguments within `[ ]` are **optional** fields and may be arranged in any order.
-> - Command arguments such as `<a|b|c>` means that the argument must **strictly** either be `a`, `b` or `c`.
+> - Command arguments such as `<a|b|c>` or `[a|b|c]` means that the argument must **strictly** either be `a`, `b` or `c`.
 
 <p>&nbsp;</p>
 
@@ -198,17 +198,22 @@ There are **3 types of tasks** you can add to your task list.
 Adds a `todo` to your task list.
 
 **Command Format**: `todo <description> [--flag <argument>]`
-- `<description>` - specifies the description of your `todo` task.
-- `[--flag <argument>]` - specifies the following optional details of your `todo` task:
+- `<description>` - specifies the description of your todo.
+- `[--flag <argument>]` - specifies the following optional details of your todo:
   - When your task is to be done: <code>[--doOn <a href="#224-date-format-dateformat">&lt;dateFormat&gt;</a>]</code>.
-  - The priority of your task: `[--priority high|medium|low]`.
+  - The priority of your task: `[--priority high|medium|low]`
   - How often your task is to repeat: `[--recur daily|weekly|monthly|yearly]`.
 
 >💡 **Note**: If the `--doOn` flag is unused, the task date will be set to the current time rounded up to the nearest hour.
 
 <p>&nbsp;</p>
 
-**Example**: `todo read book --doOn 20-10-2021 02:00 --recur daily`
+**Usage Example**: `todo read book --doOn 20-10-2021 02:00 --recur daily`
+
+  <p align="center">
+      <img src="UG_images/todo.png">
+  </p>
+
 - Adds a todo task with the description '`read book`' to your task list.
 - Specifies that the priority of the task is '`medium`' (default priority).
 - Specifies that the task is to be done on '`20-10-2021 02:00`'.
@@ -372,7 +377,7 @@ List all tasks currently stored locally in your task list.
 ### 2.3.2 Filtering your task list
 Filters your task list for all tasks that matches the filters applied.
 
-**Command Format**: `list [--filter <argument>] [--filter <argument>] ...`
+**Command Format**: `list [--flag <argument>] [--flag <argument>] ...`
 - `[--flag <argument>]` specifies the filter to be applied to your task list.
   - Type of the task: `[--type <todo|deadline|event|lesson>]`.
   - Priority of the task: `[--priority <low|medium|high>]`.
