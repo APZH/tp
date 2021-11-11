@@ -663,26 +663,30 @@ The program will store and automatically update your tasks in the file `[project
 <div style="page-break-after: always;"></div>
 
 # 3. FAQ
+This section provides a list of frequently-asked questions that may
+be useful to aid any troubleshooting issues you may face.
 
 ---
 
 **Q**: What operating systems can the application work on?
 
-**A**: The SchedUrMods application supports all Windows, Linux and Unix operating systems 
+> **A**: The SchedUrMods application supports all Windows, Linux and Unix operating systems 
 that have the `java 11 jdk` installed on their systems. 
 
 **Q**: How do I transfer my data to another computer?
 
-**A**: Install the program on the other computer and replace the new empty `tasks.dat`
+> **A**: Install the program on the other computer and replace the new empty `tasks.dat`
 it creates with the `tasks.dat` that you wish to transfer from your previous `SchedUrMods.jar`
 home folder.
 
 **Q**: I encountered an error message `java.lang.reflect.InaccessibleObjectException` when executing the program. How do I fix it?
 
-**A**: Ensure that you have installed and are running `java jdk 11`. Check your java version, by typing `java -version`
+> **A**: Ensure that you have installed and are running `java jdk 11`. Check your java version, by typing `java -version`
 to ensure that the correct jdk version (`11.x.x`) is being recognised by your system.
 
 # 4. Command Summary
+This section provides a summarised table of all available commands
+that can used in your SchedUrMods application.
 
 ---
 
