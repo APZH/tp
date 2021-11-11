@@ -26,14 +26,16 @@ faster than a traditional GUI application.
 This guide has 4 main sections, and it is highly recommended following
 the sections of the user guide in order as detailed below.
 
-- [1. Getting Started](#1-getting-started): A simple step-by-step installation guide for SchedUrMods. This section 
-provides instructions for new users who wish to set up SchedUrMods on their device.
-- [2. Features](#2-features): A detailed list of all commands and features of SchedUrMods.
-- [3. FAQ](#3-faq): A list of commonly asked questions for SchedUrMods. This section is useful
-for users who a facing issues using SchedUrMods.
+- [1. Getting Started](#1-getting-started): A simple step-by-step installation guide for SchedUrMods. 
+  - This section provides instructions for new users who wish to set up SchedUrMods on their device.
+- [2. Features](#2-features): A comprehensive list of all features in SchedUrMods.
+  - This section provides detailed information about each command and how to use them.
+- [3. FAQ](#3-faq): A list of commonly asked questions for SchedUrMods. 
+  - This section is useful for users who are troubleshooting issues when using SchedUrMods.
 - [4. Command Summary](#4-command-summary): A summarised table containing all available commands
-and features of SchedUrMods. This section provides a quick refresher for users who are already 
-familiar with the features of SchedUrMods.
+and features of SchedUrMods. 
+  - This section provides a quick refresher for users who are already 
+  familiar with the features of SchedUrMods.
 
 
 ---
@@ -41,6 +43,11 @@ familiar with the features of SchedUrMods.
 <div style="page-break-after: always;"></div>
 
 # Overview <a id="scrollToHere"></a>
+
+This section contains the outline of the SchedUrMods User Guide.
+
+By clicking on the title of any particular section, you will be automatically navigated to the 
+desired section located within the User Guide.
 
 ---
 
