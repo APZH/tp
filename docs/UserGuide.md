@@ -129,8 +129,6 @@ commands into SchedUrMods.
 
 Please refer to the [Features](#2-features) section of the User Guide for more details of the commands available.
 
-<div style="page-break-after: always;"></div>
-
 # 2. Features
 This section teaches you all the commands you can use to manage your very 
 own virtual task list in the SchedUrMods application.
@@ -650,6 +648,9 @@ The program will store and automatically update your tasks in the file `[project
 <div style="page-break-after: always;"></div>
 
 # 3. FAQ
+
+---
+
 **Q**: What operating systems can the application work on?
 
 **A**: The SchedUrMods application supports all Windows, Linux and Unix operating systems 
@@ -667,6 +668,8 @@ home folder.
 to ensure that the correct jdk version (`11.x.x`) is being recognised by your system.
 
 # 4. Command Summary
+
+---
 
 Action   | Format                                           | Example                                                                                              |
 -------- | -------------------------------------------------| -----------------------------------------------------------------------------------------------------|
