@@ -202,7 +202,7 @@ Adds a `todo` to your task list.
 - `[--flag <argument>]` - specifies the following optional details of your todo:
   - When your task is to be done: <code>[--doOn <a href="#224-date-format-dateformat">&lt;dateFormat&gt;</a>]</code>.
   - The priority of your task: `[--priority high|medium|low]`
-  - How often your task is to repeat: `[--recur daily|weekly|monthly|yearly]`.
+  - How often your task is to repeat: `[--recur daily|weekly|monthly|yearly]`
 
 >💡 **Note:** If the `--doOn` flag is unused, the task date will be set to the current time rounded up to the nearest hour.
 
@@ -227,9 +227,9 @@ Adds a `deadline` to your task list.
 **Format:** `deadline <description> <--due dd/MM/yyyy HH:mm> [--flag <argument>]`
 - `<description>` - specifies the description of your deadline.
 - <code>&lt;--due <a href="#224-date-format-dateformat">&lt;dateFormat&gt;</a>&gt;</code> - specifies when your deadline is due.
-- `[--flag <argument>]` - specifies optional details of your deadline.
-  - The priority of your task: `[--priority <high|medium|low>]`.
-  - How often your task is to repeat: `[--recur <none|daily|weekly|monthly|yearly>]`.
+- `[--flag <argument>]` - specifies the following optional details of your deadline:
+  - The priority of your task: `[--priority <high|medium|low>]`
+  - How often your task is to repeat: `[--recur <none|daily|weekly|monthly|yearly>]`
 
 <p>&nbsp;</p>
 
@@ -253,9 +253,9 @@ Adds an `event` to your task list.
 - `<description>` - specifies the description of your event.
 - <code>&lt;--start <a href="#224-date-format-dateformat">&lt;dateFormat&gt;</a>&gt;</code> - specifies when your event starts.
 - <code>&lt;--end <a href="#224-date-format-dateformat">&lt;dateFormat&gt;</a>&gt;</code> - specifies when your event ends.
-- `[--flag <argument>]` - specifies optional details of your event.
-  - The priority of your task: `[--priority <high|medium|low>]`.
-  - How often your task is to repeat: `[--recur <none|daily|weekly|monthly|yearly>]`.
+- `[--flag <argument>]` - specifies the following optional details of your event:
+  - The priority of your task: `[--priority <high|medium|low>]`
+  - How often your task is to repeat: `[--recur <none|daily|weekly|monthly|yearly>]`
 
 <p>&nbsp;</p>
 
@@ -295,8 +295,6 @@ The accepted date formats in SchedUrMods are:
 - `mm` represents the **minute** of the hour.
 
 >💡 **Note:** When day (`dd`), month (`MM`) or year (`yyyy` or `yy`) is unspecified, they will be replaced with the **current** day, month and year respectively.
-
->💡 **Note:** When minute (`mm`) is unspecified, it will be replaced with `0`.
 
 **Examples:**
 - `03-10-2004 03` translates to `3rd October 2004, 3:00am`.
@@ -352,10 +350,10 @@ List all tasks currently stored locally in your task list.
 Filters your task list for all tasks that matches the filters applied.
 
 **Format:** `list [--flag <argument>] [--flag <argument>] ...`
-- `[--flag <argument>]` specifies the filter to be applied to your task list.
-  - Type of the task: `[--type <todo|deadline|event|lesson>]`.
-  - Priority of the task: `[--priority <low|medium|high>]`.
-  - Recurrence of the task: `[--recur <none|daily|weekly|monthly|yearly>]`.
+- `[--flag <argument>]` specifies the following optional filters that can be applied to your task list:
+  - Type of the task: `[--type <todo|deadline|event|lesson>]`
+  - Priority of the task: `[--priority <low|medium|high>]`
+  - Recurrence of the task: `[--recur <none|daily|weekly|monthly|yearly>]`
 
 <p>&nbsp;</p>
 
@@ -414,7 +412,7 @@ Allows you to list your tasks for the upcoming week.
 Sorts your task list by a given criteria.
 
 **Format:** `sort --by <criteria>`
-- `<criteria>` specifies what to sort your task list by.
+- `<criteria>` specifies the following ways you can sort your task list by:
   - Type of the task: `type`.
   - Description of the task: `description`.
   - Priority of the task: `priority`.
