@@ -17,6 +17,8 @@ faster than a traditional GUI application.
 - Provide you with instructions on how to use to SchedUrMods.
 - Provide troubleshooting for issues you may face when using SchedUrMods.
 
+<div style="page-break-after: always;"></div>
+
 # Overview <a id="scrollToHere"></a>
 - [1. Getting Started](#1-getting-started)
   - [1.1 Device Requirements](#11-device-requirements)
@@ -85,6 +87,8 @@ This section serves to ensure you have installed all additional pieces of softwa
 
 - **Step 4:** If the version number matches, you have succeeded in installing `Java 11` on your device.
 
+<div style="page-break-after: always;"></div>
+
 ## 1.2 Setting Up SchedUrMods
 
 This section serves to provide a step-by-step guide to download and install the official **SchedUrMods** application.
@@ -128,6 +132,8 @@ commands into SchedUrMods.
 <p>&nbsp;</p>
 
 Please refer to the [Features](#2-features) section of the User Guide for more details of the commands available.
+
+<div style="page-break-after: always;"></div>
 
 # 2. Features
 This section teaches you all the commands you can use to manage your very 
