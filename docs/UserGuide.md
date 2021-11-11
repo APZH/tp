@@ -75,7 +75,7 @@ desired section located within the User Guide.
       - [2.6.2 Browse: `browse`](#262-browse-browse)
     - [2.7 Deleting your tasks: `delete`](#27-deleting-your-tasks-delete)
     - [2.8 Exiting the program: `bye`](#28-exiting-the-program-bye)
-    - [2.9 Storage](#29-storage)
+    - [2.9 Saving your task list](#29-saving-your-task-list)
 - [3. FAQ](#3-faq)
 - [4. Command Summary](#4-command-summary)
 
@@ -540,9 +540,22 @@ Displays goodbye message and exits the program.
 
 <p>&nbsp;</p>
 
-## 2.9 Storage
-The program will store and automatically update your tasks in the file `SchedUrMods/data/task.dat` when there are changes made to your task list.  
-   > **⚠️Warning**: The SchedUrMods team **strongly discourages** users from directly modifying data in `task.dat` as it can lead to loss of task data permanently.
+## 2.9 Saving your task list
+
+  <p align="center">
+      <img src="UG_images/storage.png">
+  </p>
+
+For first time users, a default folder `data` is created upon running SchedUrMods. A text file `task.dat` is also 
+generated in the `data` folder to serve as the local storage to store your task list data.
+
+> 💡 **Note**: The `data` folder is created in the same directory as SchedUrMods.jar.
+
+Your task list data are saved to `task.dat` automatically after any command that modifies the task list. e.g. adding a task, deleting a task, editing a task.
+
+There is no need to manually save the data.
+
+> **⚠️Warning**: The SchedUrMods team **strongly discourages** users from directly modifying data in `task.dat` as it can lead to loss of task data permanently.
 
 <div style="page-break-after: always;"></div>
 
