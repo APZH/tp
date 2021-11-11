@@ -14,7 +14,7 @@ faster than a traditional GUI application.
 
 **The purpose of this User Guide is to:**
 - Introduce you to SchedUrMods features.
-- Provide you with instructions on how to use to SchedUrMods.
+- Provide you with instructions on how to use SchedUrMods.
 - Provide troubleshooting for issues you may face when using SchedUrMods.
 
 <div style="page-break-after: always;"></div>
