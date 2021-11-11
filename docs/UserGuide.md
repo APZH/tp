@@ -26,8 +26,8 @@ faster than a traditional GUI application.
 This guide has 4 main sections, and it is highly recommended following
 the sections of the user guide in order as detailed below.
 
-> - [1. Getting Started](#1-getting-started): A simple step-by-step installation guide for SchedUrMods. 
->   - This section provides instructions for new users who wish to set up SchedUrMods on their device.> 
+> - [1. Getting Started](#1-getting-started): A simple step-by-step installation guide for SchedUrMods.
+>   - This section provides instructions for new users who wish to set up SchedUrMods on their device. 
 
 > - [2. Features](#2-features): A comprehensive list of all features in SchedUrMods.
 >   - This section provides detailed information about each command and how to use them.
@@ -37,8 +37,7 @@ the sections of the user guide in order as detailed below.
 
 > - [4. Command Summary](#4-command-summary): A summarised table containing all available commands
 and features of SchedUrMods. 
->   - This section provides a quick refresher for users who are already 
-  familiar with the features of SchedUrMods.
+>   - This section provides a quick refresher for users who are already familiar with the features of SchedUrMods.
 
 
 ---
@@ -47,7 +46,7 @@ and features of SchedUrMods.
 
 # Overview <a id="scrollToHere"></a>
 
-This section contains the outline of the SchedUrMods User Guide.
+**This section contains the outline of the SchedUrMods User Guide.**
 
 By clicking on the title of any particular section, you will be automatically navigated to the 
 desired section located within the User Guide.
@@ -83,8 +82,8 @@ desired section located within the User Guide.
 <div style="page-break-after: always;"></div>
 
 # 1. Getting Started
-This section will bring you through a step-by-step guide on how to 
-install the SchedUrMods application on your computer.
+**This section will bring you through a step-by-step guide on how to 
+install the SchedUrMods application on your computer.**
 
 ---
 
@@ -170,8 +169,8 @@ Please refer to the [Features](#2-features) section of the User Guide for more d
 <div style="page-break-after: always;"></div>
 
 # 2. Features
-This section teaches you all the commands you can use to manage your very 
-own virtual task list in the SchedUrMods application.
+**This section teaches you all the commands you can use to manage your very 
+own virtual task list in the SchedUrMods application.**
 
 ---
 
