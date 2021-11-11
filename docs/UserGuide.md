@@ -224,7 +224,7 @@ Adds a `todo` to your task list.
 ### 2.2.2 Deadline: `deadline`
 Adds a `deadline` to your task list.
 
-**Command Format:** `deadline <description> <--due dd/MM/yyyy HH:mm> [--flag <argument>]`
+**Format:** `deadline <description> <--due dd/MM/yyyy HH:mm> [--flag <argument>]`
 - `<description>` - specifies the description of your deadline.
 - <code>&lt;--due <a href="#224-date-format-dateformat">&lt;dateFormat&gt;</a>&gt;</code> - specifies when your deadline is due.
 - `[--flag <argument>]` - specifies optional details of your deadline.
@@ -249,7 +249,7 @@ Adds a `deadline` to your task list.
 ### 2.2.3 Event: `event`
 Adds an `event` to your task list.
 
-**Command Format:** `event <description> <--start dd/MM/yyyy HH:mm> <--end dd/MM/yyyy HH:mm> [--flag <argument>]`
+**Format:** `event <description> <--start dd/MM/yyyy HH:mm> <--end dd/MM/yyyy HH:mm> [--flag <argument>]`
 - `<description>` - specifies the description of your event.
 - <code>&lt;--start <a href="#224-date-format-dateformat">&lt;dateFormat&gt;</a>&gt;</code> - specifies when your event starts.
 - <code>&lt;--end <a href="#224-date-format-dateformat">&lt;dateFormat&gt;</a>&gt;</code> - specifies when your event ends.
@@ -312,7 +312,7 @@ There are **3 main features** you can use with the list command.
 ### 2.3.1 Listing your entire task list
 List all tasks currently stored locally in your task list.
 
-**Command Format:** `list`
+**Format:** `list`
 - The command displays the following 6 information for each task:
 
   <p align="center">
@@ -351,7 +351,7 @@ List all tasks currently stored locally in your task list.
 ### 2.3.2 Filtering your task list
 Filters your task list for all tasks that matches the filters applied.
 
-**Command Format:** `list [--flag <argument>] [--flag <argument>] ...`
+**Format:** `list [--flag <argument>] [--flag <argument>] ...`
 - `[--flag <argument>]` specifies the filter to be applied to your task list.
   - Type of the task: `[--type <todo|deadline|event|lesson>]`.
   - Priority of the task: `[--priority <low|medium|high>]`.
@@ -374,68 +374,46 @@ Filters your task list for all tasks that matches the filters applied.
 ### 2.3.3 Listing the recurrence of a task
 Displays the next four recurrences of a task in your task list.
 
-**Command Format:** `list [task index]`
+**Format:** `list [task index]`
 - `[task index]` specifies the id of the task to display the next four recurrences of.
 
 >💡 **Tip:** To obtain the correct task id of a task, please use the `list` command without any filters.
 
 <p>&nbsp;</p>
 
-**Example**: `list 3`
-- Lists the next four recurrences of the task with the index `3`.
+**Example**: `list 4`
+
+  <p align="center">
+      <img src="UG_images/recur_list.png">
+  </p>
+
+- Lists the next four recurrences of the task with the index `4`.
 - The task at index `3` has a recurrence of `monthly`, so the command will print the next four months of the event.
-
-<p>&nbsp;</p>
-
-**Expected Outcome**:
-
-```
--------------------------------------------------------------------------
-[user]: list 3
-|| -------------
-||  MY TASK LIST
-|| -------------
-|| Listing next 4 recurrences for:
-|| [E] project meeting <high> {monthly} (startDate: 22-11-2021 04:00 - endDate: 22-11-2021 05:00)
-|| -> 22-12-2021 04:00
-|| -> 22-01-2022 04:00
-|| -> 22-02-2022 04:00
-|| -> 22-03-2022 04:00
--------------------------------------------------------------------------
-```
 
 <p>&nbsp;</p>
 
 ### 2.3.4 Listing your upcoming tasks: `upcoming`
 Allows you to list your tasks for the upcoming week.
 
-**Command Format**: `upcoming`
+**Format:** `upcoming`
 
-<p>&nbsp;</p>
+**Example:** `upcoming`
 
-**Example**: `upcoming`
+  <p align="center">
+      <img src="UG_images/upcoming.png">
+  </p>
 
-<p>&nbsp;</p>
+- Lists your upcoming tasks that are happening in the next 7 calendar days.
+- The tasks are ordered from the earliest to the latest task start date.
 
-**Expected Outcome**:
-```
--------------------------------------------------------------------------
-[user]: upcoming
-|| [L] CS2113T C02: 10-11-2021 13:00 to 10-11-2021 14:00 <medium> {weekly} 
-|| [T] buy groceries <medium> {none} (doOn: 10-11-2021 17:30)
-|| [L] CS2113T C02: 11-11-2021 14:00 to 11-11-2021 16:00 <medium> {weekly} 
-|| [L] CS2113T C02: 12-11-2021 16:00 to 12-11-2021 18:00 <medium> {weekly} 
-|| [L] CS2113T C02: 15-11-2021 14:00 to 15-11-2021 16:00 <medium> {weekly} 
-|| [E] finals <medium> {none} (startDate: 15-11-2021 15:00 - endDate: 15-11-2021 18:00)
--------------------------------------------------------------------------
-```
+>💡 **Note:** The example image above was created within 7 calendar days of the tasks that is shown.
 
 <p>&nbsp;</p>
 
 ## 2.4 Sorting your task list: `sort`
 Sorts your task list by a given criteria.
 
-**Command Format**: `sort --by <criteria>`
+**Format:** `sort --by <criteria>`
 - `<criteria>` specifies what to sort your task list by.
   - Type of the task: `type`.
   - Description of the task: `description`.
@@ -443,39 +421,22 @@ Sorts your task list by a given criteria.
 
 <p>&nbsp;</p>
 
-**Example**: `sort --by priority` + `list`
+**Example:** `list` (before sorting) + `sort --by priority` + `list` (after sorting)
+
+  <p align="center">
+      <img src="UG_images/sort.png">
+  </p>
+
+- Print out your initial unsorted list.
 - Sort your current task list by `priority` from `high` to `low`.
 - Print out the sorted list with the `list` command.
-
-<p>&nbsp;</p>
-
-**Expected Outcome**:
-
-```
--------------------------------------------------------------------------
-[user]: sort --by priority
-|| [!] Task list has been sorted by: priority
--------------------------------------------------------------------------
-[user]: list
-|| -------------
-||  MY TASK LIST
-|| -------------
-|| 1. [E] project meeting <high> {monthly} (startDate: 22-11-2021 04:00 - endDate: 22-11-2021 05:00)
-|| 2. [D] project submission <high> {monthly} (dueDate: 21-11-2021 03:00)
-|| 3. [D] return book <medium> {weekly} (dueDate: 11-11-2021 03:00)
-|| 4. [T] exercise <medium> {none} (doOn: 04-11-2021 18:00)
-|| 5. [T] wash clothes <medium> {weekly} (doOn: 10-11-2021 02:00)
-|| 6. [T] read book <low> {daily} (doOn: 05-11-2021 02:00)
-|| 7. [E] movie screening <low> {daily} (startDate: 05-11-2021 04:00 - endDate: 05-11-2021 05:00)
--------------------------------------------------------------------------
-```
 
 <p>&nbsp;</p>
 
 ## 2.5 Editing your tasks: `edit`
 Allows you to edit the details of your [Todo](#221-todo-todo), [Deadline](#222-deadline-deadline), or [Event](#223-event-event) tasks in your task list.
 
-**Command Format**: `edit <index> <--flag <value>> [--flag <value>] [--flag <value>]...`
+**Format:** `edit <index> <--flag <value>> [--flag <value>] [--flag <value>]...`
 - `<index>` specifies the id of the task you want to edit from the most recent [list](#23-listing-your-tasks-list) command that you have run.
 
    >💡 **Tip**: if the task you want to edit was not in your most recent [list](#23-listing-your-tasks-list) command, simply type `list` to list all tasks and use its corresponding index to edit it.
@@ -483,7 +444,7 @@ Allows you to edit the details of your [Todo](#221-todo-todo), [Deadline](#222-d
 - At least one `<--flag <value>>` must be specified, though you can edit multiple values at once by providing multiple more `[--flag <value>]` arguments.
 - **Flags**
   - `--description <description>` modifies your task description.
-  - `--priority <high|medium|low>` modifie yours task priority.
+  - `--priority <high|medium|low>` modifies yours task priority.
   - `--recur <none|daily|weekly|monthly|yearly>` modifies your task recurrence.
   - <code>--doOn <a href="#224-date-format-dateformat">&lt;dateFormat&gt;</a></code> modifies when your [Todo](#221-todo-todo) is to be done.
   - <code>--due <a href="#224-date-format-dateformat">&lt;dateFormat&gt;</a></code> modifies when your [Deadline](#222-deadline-deadline) is due.
@@ -502,77 +463,48 @@ Allows you to add modules into your task list and browse to their meeting links 
 
 Adds your modules and classes into your task list.
 
-**Command Format**: `module {<module code>:{<class number>,}...;}...`
-
-- `<module code>` is the official module code of a module. E.g. `CS2113T`.
-- `<class number>` is the official class group number. E.g. `C02`.
+**Format:** `module {<module code>:{<class number>,}...;}...`
+- `<module code>` - specifies the module code of a module. E.g. `CS2113T`.
+- `<class number>` - specifies the class group number. E.g. `C02`.
 
 <p>&nbsp;</p>
 
-**Example**: `module CS2113T:C02;LAJ2203:1,A2,B4`
+**Example:** `module CS2113T:C02;LAJ2203:1,A2,B4` + `list`
+
+  <p align="center">
+      <img src="UG_images/module.png">
+  </p>
 
 - Adds class '`C02`' of the module '`CS2113T`' and classes '`1`', '`A2`', and '`B4`' of the module '`LAJ2203`' into your task list.
-
-<p>&nbsp;</p>
-
-**Expected outcome**:
-
-```
--------------------------------------------------------------------------
-[user]: module CS2113T:C02;LAJ2203:1,A2,B4
-|| Added CS2113T C02
-|| Added LAJ2203 1
-|| Added LAJ2203 A2
-|| Added LAJ2203 B4
--------------------------------------------------------------------------
-```
+- Print out your task list to view the newly added `Lesson` tasks.
 
 <p>&nbsp;</p>
 
 ### 2.6.2 Browse: `browse`
 Browse to links that were added to your `Lesson` with the [`edit`](#25-editing-your-tasks-edit) command.
 
-**Command Format**: `browse <index>`
-- `<index>` is the index of the task you want to browse to (open in an internet browser) in the most recent [list](#23-listing-your-tasks-list) command that you have run.
-  >💡 **Note**: if the task you want to browse to was not in your most recent [list](#23-listing-your-tasks-list) command, simply type `list` to list all your tasks and use its corresponding index to browse to the task's url.
+**Format:** `browse <task index>`
+- `<task index>` is the id of the task you want to browse to (open in an internet browser) in the most recent [list](#23-listing-your-tasks-list) command that you have run.
 
 <p>&nbsp;</p>
 
-**Example**: `browse 2`
+**Example:** `edit 3 --link https://www.zoom.us/` + `browse 3`
 
-<p>&nbsp;</p>
+  <p align="center">
+      <img src="UG_images/browse.png">
+  </p>
 
-**Expected outcome**:
-```
--------------------------------------------------------------------------
-[user]: browse 2
-|| https://google.com
--------------------------------------------------------------------------
-```
+- Adds a link `https://www.zoom.us/` to a task with task index `3`
+- Automatically opens your default web browser to launch `https://www.zoom.us/`
 
->💡 **Note**: The opening of the link in your default browser is done by the operating system. As such, the actual protocols supported is
-> dependent on your OS.
-
-
->💡 **Note**: There may be error messages printed on your terminal which can be from the associated application
-> used in opening the link, such as Chrome, and not SchedUrMods.
-
->💡 **Note**: If there is no link in the lesson being specified, you will be prompted with an error:
->
-> ```
-> -------------------------------------------------------------------------
-> [user]: browse 2
-> || There is no link associated with the requested task.
-> -------------------------------------------------------------------------
-> ```
-> You can conveniently list the tasks and see if the lesson has a link.
+>💡 **Tip:** To obtain the correct task id of a task, please use the `list` command without any filters.
 
 <p>&nbsp;</p>
 
 ## 2.7 Deleting your tasks: `delete`
 Deletes all task(s) specified in a comma-separated argument.
 
-**Command Format**: `delete <indexes>`
+**Format:** `delete <indexes>`
 - `<indexes>` are the indexes of the task you want to edit from the most recent [list](#23-listing-your-tasks-list) command that you have run.
    >💡 **Note**: if the task(s) you want to delete was not in your most recent [list](#23-listing-your-tasks-list) command, simply type `list` to list the tasks and use their indexes to delete them.
   - Indexes should be comma separated single integers such as `5` and/or ranges of two indexes such as `1-3`.
@@ -585,74 +517,32 @@ Deletes all task(s) specified in a comma-separated argument.
 
 <p>&nbsp;</p>
 
-**Example**: `delete 1-3, 5`
-- delete the tasks with indexes 1, 2, 3 and 5.
+**Example:** `delete 1-3, 5`
 
-<p>&nbsp;</p>
+  <p align="center">
+      <img src="UG_images/delete.png">
+  </p>
 
-**List before deletion**:
-
-```
--------------------------------------------------------------------------
-[user]: list
-|| -------------
-||  MY TASK LIST
-|| -------------
-|| 1. [T] read book <low> {none} (doOn: 20-10-2021 02:00)
-|| 2. [T] return book <low> {none} (doOn: 21-10-2021 03:00)
-|| 3. [E] project meeting <high> {none} (startDate: 22-10-2021 04:00 - endDate: 22-10-2021 05:00)
-|| 4. [T] wash clothes <medium> {none} (doOn: 20-10-2021 02:00)
-|| 5. [D] homework <low> {none} (dueDate: 21-10-2021 03:00)
-|| 6. [E] movie screening <low> {none} (startDate: 22-10-2021 04:00 - endDate: 22-10-2021 05:00)
--------------------------------------------------------------------------
-```
-**Expected Outcome**:
-
-```
--------------------------------------------------------------------------
-[user]: delete 1-3,5
-|| Task(s) deleted:
-|| [T] read book <low> {none} (doOn: 20-10-2021 02:00)
-|| [T] return book <low> {none} (doOn: 21-10-2021 03:00)
-|| [E] project meeting <high> {none} (startDate: 22-10-2021 04:00 - endDate: 22-10-2021 05:00)
-|| [D] homework <low> {none} (dueDate: 21-10-2021 03:00)
--------------------------------------------------------------------------
-```
-
-**List after deletion**:
-
-```
--------------------------------------------------------------------------
-[user]: list
-|| -------------
-||  MY TASK LIST
-|| -------------
-|| 1. [T] wash clothes <medium> {none} (doOn: 20-10-2021 02:00)
-|| 2. [E] movie screening <low> {none} (startDate: 22-10-2021 04:00 - endDate: 22-10-2021 05:00)
--------------------------------------------------------------------------
-```
+- Deletes the tasks with indexes 1, 2, 3 and 5.
 
 <p>&nbsp;</p>
 
 ## 2.8 Exiting the program: `bye`
 Displays goodbye message and exits the program.
 
-**Command Format**: `bye`
+**Format:** `bye`
 
-**Expected Outcome**:
+**Example:** `bye`
 
-```
--------------------------------------------------------------------------
-[user]: bye
-|| Exiting program!
--------------------------------------------------------------------------
-```
+  <p align="center">
+      <img src="UG_images/bye.png">
+  </p>
 
 <p>&nbsp;</p>
 
 ## 2.9 Storage
-The program will store and automatically update your tasks in the file `[project directory]/data/task.dat` on any change to your task list.  
-   > **⚠️Warning**: The SchedUrMods team **strongly discourages** users from directly modifying Task data in `task.dat` as it can lead to undefined behaviour. The team **will not be responsible** for any *loss of data* or *undefined behaviour* as a result of users directly modifying values in the save file.
+The program will store and automatically update your tasks in the file `SchedUrMods/data/task.dat` when there are changes made to your task list.  
+   > **⚠️Warning**: The SchedUrMods team **strongly discourages** users from directly modifying data in `task.dat` as it can lead to loss of task data permanently.
 
 <div style="page-break-after: always;"></div>
 
