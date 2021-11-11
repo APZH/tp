@@ -1,8 +1,12 @@
+
 <p align="center">
     <img src="UG_images/logo.png">
 </p>
 
 # SchedUrMods User Guide
+
+---
+
 **Welcome to SchedUrMods User Guide!**
 
 SchedUrMods is a desktop application that simplifies task and timetable
@@ -17,9 +21,14 @@ faster than a traditional GUI application.
 - Provide you with instructions on how to use SchedUrMods.
 - Provide troubleshooting for issues you may face when using SchedUrMods.
 
+---
+
 <div style="page-break-after: always;"></div>
 
 # Overview <a id="scrollToHere"></a>
+
+---
+
 - [1. Getting Started](#1-getting-started)
   - [1.1 Device Requirements](#11-device-requirements)
   - [1.2 Setting Up SchedUrMods](#12-setting-up-schedurmods)
