@@ -184,7 +184,7 @@ own virtual task list in the SchedUrMods application.
 
 <p>&nbsp;</p>
 
-## 2.1 Viewing help : `help`
+## **2.1 Viewing help :** `help`
 Displays all available commands for the SchedUrMods application.
 
 **Command Format**: `help`
