@@ -23,8 +23,8 @@ faster than a traditional GUI application.
 
 **How to use this User Guide?**
 
-This guide has 4 main sections, and it is highly recommended following
-the sections of the user guide in order as detailed below.
+This guide has **4 main sections**, and it is highly recommended follow
+the sections of the user guide in the order as detailed below if you are a new user.
 
 > - [1. Getting Started](#1-getting-started): A simple step-by-step installation guide for SchedUrMods.
 >   - This section provides instructions for new users who wish to set up SchedUrMods on their device. 
@@ -82,8 +82,8 @@ desired section located within the User Guide.
 <div style="page-break-after: always;"></div>
 
 # 1. Getting Started
-**This section will bring you through a step-by-step guide on how to 
-install the SchedUrMods application on your computer.**
+This section will bring you through a step-by-step guide on how to 
+install the SchedUrMods application on your computer.
 
 ---
 
@@ -159,8 +159,8 @@ on `SchedUrMods.jar` as shown in the image below.
 
 <p>&nbsp;</p>
 
-- **Step 5:** Congratulations, have successfully installed SchedUrMods! You may now enter 
-commands into SchedUrMods.
+- **Step 5:** Congratulations, have successfully installed SchedUrMods! You may now start using SchedUrMods
+to build your very own virtual task list.
 
 <p>&nbsp;</p>
 
@@ -169,8 +169,8 @@ Please refer to the [Features](#2-features) section of the User Guide for more d
 <div style="page-break-after: always;"></div>
 
 # 2. Features
-**This section teaches you all the commands you can use to manage your very 
-own virtual task list in the SchedUrMods application.**
+This section teaches you all the commands you can use to manage your very 
+own virtual task list in the SchedUrMods application.
 
 ---
 
@@ -181,8 +181,6 @@ own virtual task list in the SchedUrMods application.**
 > - Command arguments within `< >` are **mandatory** fields.
 > - Command arguments within `[ ]` are **optional** fields and may be arranged in any order.
 > - Command arguments such as `<a|b|c>` means that the argument must **strictly** either be `a`, `b` or `c`.
-> - If the `[--priority <high|medium|low>]` flag is not used, the **default priority** will be set to `medium`.
-> - If the `[--recur <none|daily|weekly|monthly|yearly>]` flag is not used, the **default recurrence** will be set to `none`.
 
 <p>&nbsp;</p>
 
