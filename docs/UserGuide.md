@@ -30,10 +30,10 @@ the sections of the user guide in the order as detailed below if you are a new u
 >   - This section provides instructions for new users who wish to set up SchedUrMods on their device. 
 
 > - [2. Features](#2-features): A comprehensive list of all features in SchedUrMods.
->   - This section provides detailed information about each command and how to use them.
+>   - This section provides detailed information for users who want to find out more about each command and how to use them.
 
 > - [3. FAQ](#3-faq): A list of commonly asked questions for SchedUrMods. 
->   - This section is useful for users who are troubleshooting issues when using SchedUrMods.
+>   - This section provides useful information for users who are troubleshooting issues when using SchedUrMods.
 
 > - [4. Command Summary](#4-command-summary): A summarised table containing all available commands
 and features of SchedUrMods. 
