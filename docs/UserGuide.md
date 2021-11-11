@@ -16,10 +16,25 @@ SchedUrMods is optimised for usage via a Command Line Interface (CLI). If you ar
 someone that can type fast, SchedUrMods can definitely help you manage your NUS semester 
 faster than a traditional GUI application.
 
-**The purpose of this User Guide is to:**
+**What is the purpose of this User Guide?**
 - Introduce you to SchedUrMods features.
 - Provide you with instructions on how to use SchedUrMods.
 - Provide troubleshooting for issues you may face when using SchedUrMods.
+
+**How to use this User Guide?**
+
+This guide has 4 main sections, and it is highly recommended following
+the sections of the user guide in order as detailed below.
+
+- [1. Getting Started](#1-getting-started): A simple step-by-step installation guide for SchedUrMods. This section 
+provides instructions for new users who wish to set up SchedUrMods on their device.
+- [2. Features](#2-features): A detailed list of all commands and features of SchedUrMods.
+- [3. FAQ](#3-faq): A list of commonly asked questions for SchedUrMods. This section is useful
+for users who a facing issues using SchedUrMods.
+- [4. Command Summary](#4-command-summary): A summarised table containing all available commands
+and features of SchedUrMods. This section provides a quick refresher for users who are already 
+familiar with the features of SchedUrMods.
+
 
 ---
 
